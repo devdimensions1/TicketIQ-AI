@@ -127,6 +127,10 @@ DARK_VARS = """
 :root { --bg:#0e1117; --bg2:#161a23; --tx:#fafafa; --mut:rgba(250,250,250,.62); --inp:#262730;
   --card:rgba(128,128,160,.09); --bd:rgba(128,128,160,.30);
   --c-red:#f87171; --c-amb:#fbbf24; --c-grn:#4ade80; --c-gry:#94a3b8; --c-ind:#a5b4fc; }
+
+.stApp [data-testid="stAlertContainer"] { background: rgba(124,58,237,.14) !important; }
+.stApp [data-testid="stAlertContainer"] * { color: var(--tx) !important; }
+.stApp [data-testid="stMarkdownContainer"] code { background: var(--inp) !important; color: var(--tx) !important; }
 """
 LIGHT_VARS = """
 :root { --bg:#f5f6fb; --bg2:#ffffff; --tx:#1b1f2a; --mut:rgba(27,31,42,.62); --inp:#ffffff;
@@ -146,7 +150,9 @@ MODE_CSS = """
   background: var(--card) !important; border: 1px solid var(--bd) !important; }
 .stApp button[kind="secondary"] *, .stApp button[kind="secondaryFormSubmit"] * { color: var(--tx) !important; }
 .stApp [data-baseweb="input"], .stApp [data-baseweb="input"] > div, .stApp [data-baseweb="textarea"],
-.stApp [data-baseweb="textarea"] > div, .stApp [data-baseweb="select"] > div {
+.stApp [data-baseweb="textarea"] > div, .stApp [data-baseweb="select"] > div,
+.stApp [data-testid="stTextInputRootElement"], .stApp [data-testid="stTextAreaRootElement"],
+.stApp [data-testid="stNumberInputContainer"] {
   background: var(--inp) !important; border-color: var(--bd) !important; }
 .stApp [data-baseweb="select"] *, .stApp [data-baseweb="tag"] * { color: var(--tx) !important; }
 .stApp [data-baseweb="select"] svg { fill: var(--mut) !important; }
