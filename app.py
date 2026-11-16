@@ -17,7 +17,8 @@ SAMPLES = {
 PRIORITY_ICON = {"high": "🔴", "medium": "🟠", "low": "🟢"}
 SENTIMENT_ICON = {"negative": "😠", "neutral": "😐", "positive": "😊"}
 
-st.set_page_config(page_title="TicketIQ AI", page_icon="🎫", layout="wide")
+st.set_page_config(page_title="TicketIQ AI", page_icon="🎫", layout="wide",
+                   initial_sidebar_state="collapsed")
 
 
 @st.cache_resource(show_spinner="Loading models (first run trains them)...")
@@ -142,13 +143,12 @@ def agent_console(engine: TriageEngine) -> None:
 
 def main() -> None:
     engine = get_engine()
-    with st.sidebar:
-        view = st.radio("View", ["Customer portal", "Agent console (internal)"])
-        st.divider()
-    if view == "Customer portal":
-        customer_portal(engine)
-    else:
+    # Internal console lives at /?view=agent. This hides it from customers
+    # but is not access control; put real authentication in front for production.
+    if st.query_params.get("view") == "agent":
         agent_console(engine)
+    else:
+        customer_portal(engine)
 
 
 main()
