@@ -141,7 +141,17 @@ def agent_console(engine: TriageEngine) -> None:
                                    "triage_results.csv", "text/csv")
 
 
+HIDE_CHROME = """
+<style>
+#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stMainMenu"],
+[data-testid="stDeployButton"], [data-testid="stDecoration"] { display: none !important; }
+header[data-testid="stHeader"] { background: transparent; }
+</style>
+"""
+
+
 def main() -> None:
+    st.markdown(HIDE_CHROME, unsafe_allow_html=True)
     engine = get_engine()
     # Internal console lives at /?view=agent. This hides it from customers
     # but is not access control; put real authentication in front for production.
