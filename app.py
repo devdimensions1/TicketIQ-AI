@@ -1,6 +1,8 @@
 """Streamlit demo UI: streamlit run app.py"""
 from __future__ import annotations
 
+import uuid
+
 import pandas as pd
 import streamlit as st
 
@@ -46,9 +48,53 @@ def show_result(r) -> None:
         st.json(r.to_dict())
 
 
-def main() -> None:
-    engine = get_engine()
-    st.title("🎫 TicketIQ AI")
+TEAM = {
+    "billing": "Billing",
+    "technical": "Technical Support",
+    "account": "Account",
+    "feature_request": "Product",
+}
+
+
+def customer_portal(engine: TriageEngine) -> None:
+    st.title("How can we help?")
+    st.write("Tell us what's going on and we'll route your request to the right team.")
+    with st.form("support_form", clear_on_submit=False):
+        name = st.text_input("Your name (optional)")
+        email = st.text_input("Email (optional)", placeholder="you@company.com")
+        text = st.text_area("Describe your issue", height=160,
+                            placeholder="What happened? What did you expect?")
+        submitted = st.form_submit_button("Submit request", type="primary")
+    if not submitted:
+        return
+    try:
+        r = engine.triage(text, k=3)
+    except ValueError:
+        st.warning("Please describe your issue so we can help.")
+        return
+    ref = "TIQ-" + uuid.uuid4().hex[:6].upper()
+    greet = f"Thanks, {name.strip()}!" if name.strip() else "Thanks for reaching out!"
+    st.success(f"{greet} Your request **{ref}** has been received.")
+    c1, c2 = st.columns(2)
+    c1.metric("Handled by", TEAM.get(r.category, "Support"))
+    c2.metric("Expected response", r.sla)
+    if email.strip():
+        st.caption(f"We'll send updates to {email.strip()}.")
+    st.subheader("While you wait")
+    st.info(r.suggested_reply)
+    titles = []
+    for t in r.similar_tickets:
+        title = t["text"].split(". ")[0].strip(". ").capitalize()
+        if title and title not in titles:
+            titles.append(title)
+    if titles:
+        st.subheader("Related topics")
+        for title in titles:
+            st.markdown(f"- {title}")
+
+
+def agent_console(engine: TriageEngine) -> None:
+    st.title("🎫 TicketIQ AI: Agent Console")
     st.write("Paste a support ticket to get category, priority, SLA, sentiment, "
              "escalation and a suggested reply.")
 
@@ -92,6 +138,17 @@ def main() -> None:
                 st.dataframe(out, width="stretch", hide_index=True)
                 st.download_button("Download results", out.to_csv(index=False),
                                    "triage_results.csv", "text/csv")
+
+
+def main() -> None:
+    engine = get_engine()
+    with st.sidebar:
+        view = st.radio("View", ["Customer portal", "Agent console (internal)"])
+        st.divider()
+    if view == "Customer portal":
+        customer_portal(engine)
+    else:
+        agent_console(engine)
 
 
 main()
