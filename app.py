@@ -6,6 +6,7 @@ Agent console:    http://localhost:8501/?view=agent
 from __future__ import annotations
 
 import json
+import os
 from collections import Counter
 
 import pandas as pd
@@ -46,8 +47,8 @@ def get_engine() -> TriageEngine:
 
 @st.cache_resource
 def get_store() -> TicketStore:
-    # Shared by every browser session in this server process.
-    return TicketStore()
+    # Shared by every browser session; persisted to SQLite so tickets survive restarts.
+    return TicketStore(os.environ.get("TICKETIQ_DB", "data/tickets.db"))
 
 
 def related_titles(similar: list) -> list:
@@ -158,7 +159,7 @@ def customer_portal(engine: TriageEngine, store: TicketStore) -> None:
                     st.warning("We couldn't find that reference. Check it and try again.")
                 else:
                     show_receipt(rec)
-            st.caption("Demo note: requests are held in memory and cleared when the app restarts.")
+            st.caption("Demo note: requests are saved to a local demo database.")
     theme.footer(FOOTER_NOTE)
 
 
@@ -333,7 +334,7 @@ def agent_console(engine: TriageEngine, store: TicketStore) -> None:
                      if (not query or query.lower() in r.text.lower() or query.lower() in r.ref.lower())
                      and (not pri_f or r.priority in pri_f) and (not st_f or r.status in st_f)]
             st.caption(f"Showing {len(shown)} of {len(records)} tickets · "
-                       "tickets are kept in memory until the server restarts")
+                       "tickets are saved to a local database")
             if shown:
                 theme.table(queue_rows(shown))
                 ticket_detail(store, shown)

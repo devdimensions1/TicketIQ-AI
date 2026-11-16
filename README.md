@@ -40,6 +40,13 @@ streamlit run app.py           # customer portal at http://localhost:8501
 pytest                         # run tests
 ```
 
+## Ticket storage
+
+Submitted tickets are saved to a local SQLite database (`data/tickets.db`, gitignored), so the
+queue and ticket statuses survive restarts. Set `TICKETIQ_DB=/path/to/file.db` to use another
+location. The file holds customer names and emails in plain text, so treat it as sensitive and
+use a proper database with access controls for production.
+
 ## Example
 
 ```bash

@@ -4,3 +4,7 @@ __pycache__/
 .pytest_cache/
 models/*.joblib
 .DS_Store
+
+# local ticket database
+data/*.db
+data/*.db-*
