@@ -5,6 +5,9 @@ Agent console:    http://localhost:8501/?view=agent
 """
 from __future__ import annotations
 
+import json
+from collections import Counter
+
 import pandas as pd
 import streamlit as st
 
@@ -31,7 +34,8 @@ CATEGORY_ICON = {"billing": "💳", "technical": "🛠️", "account": "👤", "
 PRIORITY_RANK = {"high": 0, "medium": 1, "low": 2}
 
 st.set_page_config(page_title="TicketIQ AI", page_icon="🎫", layout="wide",
-                   initial_sidebar_state="collapsed")
+                   initial_sidebar_state=("expanded" if st.query_params.get("view") == "agent"
+                                          else "collapsed"))
 
 
 @st.cache_resource(show_spinner="Loading models (first run trains them)...")
@@ -146,24 +150,32 @@ def show_result(r) -> None:
     theme.bubble(r.suggested_reply, who="Draft reply")
     st.markdown("#### Similar past tickets")
     if r.similar_tickets:
-        st.dataframe(pd.DataFrame(r.similar_tickets), width="stretch", hide_index=True,
-                     column_config={"similarity": st.column_config.ProgressColumn(
-                         "similarity", min_value=0.0, max_value=1.0, format="%.2f")})
+        theme.table([{"id": t["id"], "category": theme.badge(t["category"].replace("_", " "), "cat"),
+                      "ticket": t["text"], "similarity": theme.meter(t["similarity"])}
+                     for t in r.similar_tickets])
     else:
         st.write("No similar tickets found.")
     with st.expander("Raw JSON"):
-        st.json(r.to_dict())
+        theme.code(json.dumps(r.to_dict(), indent=2))
 
 
-def queue_frame(records: list) -> pd.DataFrame:
-    rows = sorted(records, key=lambda r: (not r.escalate, PRIORITY_RANK[r.priority],
-                                          -r.created.timestamp()))
-    return pd.DataFrame([{
-        "ref": r.ref, "🚨": "🚨" if r.escalate else "", "priority": r.priority,
-        "category": r.category, "sentiment": r.sentiment, "sla": r.sla,
-        "status": r.status, "created": r.created.strftime("%H:%M:%S"),
-        "ticket": r.text,
-    } for r in rows])
+def result_row(r, text: str) -> dict:
+    return {"priority": theme.badge(r.priority.title(), r.priority),
+            "category": theme.badge(r.category.replace("_", " "), "cat"),
+            "sentiment": theme.badge(r.sentiment.title(), r.sentiment),
+            "sla": r.sla, "ticket": text if len(text) <= 90 else text[:87] + "..."}
+
+
+def queue_rows(records: list) -> list:
+    ordered = sorted(records, key=lambda r: (not r.escalate, PRIORITY_RANK[r.priority],
+                                             -r.created.timestamp()))
+    rows = []
+    for r in ordered:
+        row = {"ref": r.ref, "🚨": "🚨" if r.escalate else ""}
+        row.update(result_row(r, r.text))
+        row.update({"status": r.status, "created": r.created.strftime("%H:%M:%S")})
+        rows.append(row)
+    return rows
 
 
 def agent_console(engine: TriageEngine, store: TicketStore) -> None:
@@ -207,13 +219,16 @@ def agent_console(engine: TriageEngine, store: TicketStore) -> None:
                 theme.card("Avg confidence", f"{avg_conf:.0%}")
             st.write("")
             ch1, ch2 = st.columns(2)
-            df = queue_frame(records)
-            ch1.markdown("##### Tickets by category")
-            ch1.bar_chart(df["category"].value_counts())
-            ch2.markdown("##### Tickets by priority")
-            ch2.bar_chart(df["priority"].value_counts().reindex(["high", "medium", "low"]).fillna(0))
+            cats = Counter(r.category.replace("_", " ") for r in records)
+            pris = Counter(r.priority for r in records)
+            with ch1:
+                st.markdown("##### Tickets by category")
+                theme.bars(dict(cats.most_common()))
+            with ch2:
+                st.markdown("##### Tickets by priority")
+                theme.bars({k: pris.get(k, 0) for k in ("high", "medium", "low")})
             st.markdown("##### Queue (escalations first)")
-            st.dataframe(df, width="stretch", hide_index=True)
+            theme.table(queue_rows(records))
             st.markdown("##### Update a ticket")
             u1, u2, u3 = st.columns([2, 2, 1])
             ref = u1.selectbox("Ticket", [r.ref for r in records])
@@ -246,24 +261,39 @@ def agent_console(engine: TriageEngine, store: TicketStore) -> None:
             if "text" not in df.columns:
                 st.error("CSV must contain a `text` column.")
             else:
-                rows = []
+                rows, plain = [], []
                 for t in df["text"].fillna("").astype(str):
                     if not t.strip():
                         continue
                     r = engine.triage(t, k=1)
-                    rows.append({"text": t, "category": r.category, "priority": r.priority,
-                                 "sentiment": r.sentiment, "sla": r.sla, "escalate": r.escalate})
-                out = pd.DataFrame(rows)
+                    rows.append(result_row(r, t))
+                    plain.append({"text": t, "category": r.category, "priority": r.priority,
+                                  "sentiment": r.sentiment, "sla": r.sla, "escalate": r.escalate})
+                out = pd.DataFrame(plain)
+                if out.empty:
+                    st.warning("No non-empty tickets found in the file.")
+                    return
                 b1, b2 = st.columns(2)
-                b1.bar_chart(out["category"].value_counts())
-                b2.bar_chart(out["priority"].value_counts())
-                st.dataframe(out, width="stretch", hide_index=True)
+                with b1:
+                    theme.bars(dict(Counter(out["category"].str.replace("_", " ")).most_common()))
+                with b2:
+                    theme.bars({k: int((out["priority"] == k).sum()) for k in ("high", "medium", "low")})
+                theme.table(rows)
                 st.download_button("Download results", out.to_csv(index=False),
                                    "triage_results.csv", "text/csv")
 
 
+def initial_dark() -> bool:
+    """Dark by default; ?theme=light opens the light version."""
+    return st.query_params.get("theme") != "light"
+
+
 def main() -> None:
-    theme.inject()
+    if "dark" not in st.session_state:
+        st.session_state["dark"] = initial_dark()
+    _, toggle_col = st.columns([8, 2])
+    toggle_col.toggle("🌙 Dark mode", key="dark")
+    theme.inject(st.session_state["dark"])
     engine, store = get_engine(), get_store()
     # Internal console lives at /?view=agent. This hides it from customers
     # but is not access control; put real authentication in front for production.
