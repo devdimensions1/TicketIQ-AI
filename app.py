@@ -218,7 +218,8 @@ def insight_panel(title: str, data: dict) -> None:
 
 def ticket_detail(store: TicketStore, records: list) -> None:
     theme.panel_title("Ticket detail")
-    ref = st.selectbox("Ticket", [r.ref for r in records], label_visibility="collapsed")
+    ref = st.selectbox("Ticket", [r.ref for r in records], label_visibility="collapsed",
+                       key="detail_ticket", on_change=lambda: st.session_state.pop("detail_flash", None))
     rec = store.get(ref)
     if rec is None:
         return
@@ -243,22 +244,40 @@ def ticket_detail(store: TicketStore, records: list) -> None:
             new_status = st.selectbox("Set status", STATUSES, index=STATUSES.index(rec.status),
                                       key=f"st_{rec.ref}")
             if st.button("Update status", type="primary", width="stretch"):
-                store.set_status(rec.ref, new_status)
-                st.rerun()
+                if new_status == rec.status:
+                    st.info(f"No change: status is already {rec.status}.")
+                else:
+                    old_status = rec.status
+                    store.set_status(rec.ref, new_status)
+                    msg = f"{rec.ref} status changed from {old_status} to {new_status}."
+                    st.session_state["flash"] = msg
+                    st.session_state["detail_flash"] = (rec.ref, msg)
+                    st.rerun()
+            done = st.session_state.get("detail_flash")
+            if done and done[0] == rec.ref:
+                st.success(done[1])
 
 
 def agent_console(engine: TriageEngine, store: TicketStore) -> None:
     navbar("Agent Console", env="Demo")
     theme.page_header("Ticket queue", "Triage, prioritise and resolve customer requests with AI assistance.")
+    note = st.session_state.pop("flash", None)
+    if note:
+        st.toast(note, icon="✅")
     with st.sidebar:
         st.header("Tools")
         k = st.slider("Similar tickets to show", 1, 10, 3)
+        live = st.checkbox("Live updates (every 5s)", value=True,
+                           help="Refresh the queue automatically so new customer tickets appear.")
         if st.button("Load demo tickets", width="stretch"):
             for t in DEMO_TICKETS:
                 submit_ticket(engine, store, t)
+            st.session_state["flash"] = f"Loaded {len(DEMO_TICKETS)} demo tickets."
             st.rerun()
         if st.button("Clear queue", width="stretch"):
             store.clear()
+            st.session_state.pop("detail_flash", None)
+            st.session_state["flash"] = "Queue cleared."
             st.rerun()
         st.header("Samples")
         for label, text in SAMPLES.items():
@@ -268,7 +287,7 @@ def agent_console(engine: TriageEngine, store: TicketStore) -> None:
 
     tab_queue, tab_triage, tab_batch = st.tabs(["Queue", "Triage a ticket", "Batch upload"])
 
-    with tab_queue:
+    def queue_view() -> None:
         records = store.all()
         if not records:
             st.info("The queue is empty. Submit a request from the customer portal, "
@@ -299,7 +318,10 @@ def agent_console(engine: TriageEngine, store: TicketStore) -> None:
                 insight_panel("By sentiment", {k: sen.get(k, 0) for k in ("negative", "neutral", "positive")})
 
             st.write("")
-            theme.panel_title("Queue · escalations first")
+            h1, h2 = st.columns([6, 1], vertical_alignment="center")
+            with h1:
+                theme.panel_title("Queue · escalations first")
+            h2.button("Refresh", key="refresh_queue", width="stretch")
             f1, f2, f3 = st.columns([3, 2, 2])
             query = f1.text_input("Search", placeholder="Search tickets or references...",
                                   label_visibility="collapsed")
@@ -310,12 +332,16 @@ def agent_console(engine: TriageEngine, store: TicketStore) -> None:
             shown = [r for r in records
                      if (not query or query.lower() in r.text.lower() or query.lower() in r.ref.lower())
                      and (not pri_f or r.priority in pri_f) and (not st_f or r.status in st_f)]
-            st.caption(f"Showing {len(shown)} of {len(records)} tickets")
+            st.caption(f"Showing {len(shown)} of {len(records)} tickets · "
+                       "tickets are kept in memory until the server restarts")
             if shown:
                 theme.table(queue_rows(shown))
                 ticket_detail(store, shown)
             else:
                 st.info("No tickets match these filters.")
+
+    with tab_queue:
+        st.fragment(run_every=5 if live else None)(queue_view)()
 
     with tab_triage:
         text = st.text_area("Ticket text", key="ticket", height=140,
