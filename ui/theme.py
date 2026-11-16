@@ -149,7 +149,7 @@ MODE_CSS = """
   background: var(--inp) !important; border-color: var(--bd) !important; }
 .stApp [data-baseweb="select"] *, .stApp [data-baseweb="tag"] * { color: var(--tx) !important; }
 .stApp [data-baseweb="select"] svg { fill: var(--mut) !important; }
-.stApp input, .stApp textarea { color: var(--tx) !important; -webkit-text-fill-color: var(--tx) !important; }
+.stApp input, .stApp textarea { caret-color: var(--tx) !important; color: var(--tx) !important; -webkit-text-fill-color: var(--tx) !important; }
 .stApp input::placeholder, .stApp textarea::placeholder { color: var(--mut) !important; -webkit-text-fill-color: var(--mut) !important; }
 [data-baseweb="popover"] [data-baseweb="menu"], [data-baseweb="popover"] ul { background: var(--bg2) !important; }
 [data-baseweb="popover"] li, [data-baseweb="popover"] li * { color: var(--tx) !important; }
