@@ -11,27 +11,61 @@ CSS = """
 #MainMenu, footer, [data-testid="stToolbarActions"], [data-testid="stMainMenu"],
 [data-testid="stDeployButton"], [data-testid="stDecoration"] { display: none !important; }
 header[data-testid="stHeader"] { background: transparent; }
-.block-container { padding-top: 2rem; max-width: 1100px; }
+.block-container { padding-top: 1.2rem; max-width: 1240px; }
+html, body, .stApp { font-family: Inter, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; }
 
 .hero {
-  border-radius: 20px; padding: 2.2rem 2.4rem; margin-bottom: 1.4rem; color: #fff;
-  background: radial-gradient(1200px 400px at 90% -20%, rgba(34,211,238,.45), transparent),
-              linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #db2777 100%);
-  box-shadow: 0 12px 40px rgba(79,70,229,.35);
+  position: relative; overflow: hidden; border-radius: 16px; padding: 2.4rem 2.6rem; margin-bottom: 1.4rem; color: #fff;
+  background: radial-gradient(900px 320px at 95% -30%, rgba(34,211,238,.40), transparent),
+              linear-gradient(120deg, #3730a3 0%, #5b21b6 55%, #9d174d 100%);
+  box-shadow: 0 10px 30px rgba(55,48,163,.28);
 }
-.hero h1 { margin: 0 0 .3rem 0; font-size: 2.3rem; font-weight: 800; letter-spacing: -.02em; color:#fff; }
-.hero p { margin: 0; font-size: 1.05rem; opacity: .92; }
-.pills { margin-top: 1rem; display: flex; gap: .5rem; flex-wrap: wrap; }
-.pill { background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.3);
-        padding: .25rem .75rem; border-radius: 999px; font-size: .82rem; backdrop-filter: blur(6px); }
+.hero::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .18;
+  background-image: radial-gradient(rgba(255,255,255,.9) 1px, transparent 1px); background-size: 22px 22px;
+  mask-image: linear-gradient(90deg, transparent 35%, #000 100%); -webkit-mask-image: linear-gradient(90deg, transparent 35%, #000 100%); }
+.hero .eyebrow { font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; opacity: .8; margin-bottom: .5rem; font-weight: 600; }
+.hero h1 { margin: 0 0 .4rem 0; font-size: 2.2rem; font-weight: 750; letter-spacing: -.025em; color:#fff; position: relative; }
+.hero p { margin: 0; font-size: 1.02rem; opacity: .9; max-width: 640px; position: relative; }
+.trust { margin-top: 1.3rem; display: flex; gap: 1.6rem; flex-wrap: wrap; font-size: .85rem; position: relative; }
+.trust span { display: inline-flex; align-items: center; gap: .45rem; opacity: .95; }
 
-.card { border: 1px solid var(--bd); border-radius: 16px; padding: 1rem 1.2rem;
-        background: var(--card); height: 100%; }
-.card .label { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; opacity: .65; }
+.st-key-navbar { border-bottom: 1px solid var(--bd); padding-bottom: .9rem; margin-bottom: 1.3rem; }
+.brand { display: flex; align-items: center; gap: .65rem; }
+.brand .logo { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; color: #fff;
+  background: linear-gradient(135deg,#4f46e5,#9333ea 60%,#db2777); box-shadow: 0 4px 12px rgba(99,70,229,.4); }
+.brand .name { font-weight: 800; font-size: 1.15rem; letter-spacing: -.02em; }
+.brand .sep { width: 1px; height: 20px; background: var(--bd); margin: 0 .2rem; }
+.brand .sect { font-size: .9rem; opacity: .7; }
+.brand .env { font-size: .68rem; font-weight: 700; letter-spacing: .08em; padding: .15rem .5rem; border-radius: 6px;
+  border: 1px solid var(--bd); opacity: .75; text-transform: uppercase; }
+
+.rail { border: 1px solid var(--bd); border-radius: 14px; padding: 1.1rem 1.2rem; background: var(--card); margin-bottom: 1rem; }
+.rail h4 { margin: 0 0 .8rem 0; font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; opacity: .65; font-weight: 700; }
+.sla-row { display: flex; align-items: center; justify-content: space-between; padding: .5rem 0; border-top: 1px solid var(--bd); font-size: .88rem; }
+.sla-row:first-of-type { border-top: 0; }
+.sla-row .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: .55rem; }
+.how { display: flex; gap: .8rem; padding: .45rem 0; font-size: .88rem; line-height: 1.4; }
+.how .n { flex: 0 0 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: .72rem; font-weight: 700;
+  background: rgba(99,102,241,.15); color: var(--c-ind); }
+.how b { display: block; }
+.how span.d { opacity: .65; font-size: .82rem; }
+.panel-title { font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; opacity: .65; font-weight: 700; margin: .2rem 0 .6rem 0; }
+.page-title { font-size: 1.5rem; font-weight: 750; letter-spacing: -.02em; margin: 0; }
+.page-sub { opacity: .65; font-size: .92rem; margin: .15rem 0 1rem 0; }
+.footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--bd); font-size: .78rem; opacity: .6;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+.ic { display: inline-flex; vertical-align: middle; }
+.cardhead { display: flex; justify-content: space-between; align-items: center; }
+.cardhead .chip-ic { width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center;
+  background: rgba(99,102,241,.14); color: var(--c-ind); }
+.stApp div[data-testid="stVerticalBlockBorderWrapper"] { border-color: var(--bd) !important; border-radius: 14px !important; background: var(--card); }
+.card { border: 1px solid var(--bd); border-radius: 14px; padding: 1rem 1.2rem;
+        background: var(--card); height: 100%; min-height: 112px; }
+.card .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; opacity: .65; font-weight: 600; }
 .card .value { font-size: 1.45rem; font-weight: 700; margin-top: .2rem; }
 .card .sub { font-size: .82rem; opacity: .65; margin-top: .15rem; }
 
-.badge { display: inline-block; padding: .18rem .65rem; border-radius: 999px; font-size: .8rem;
+.badge { display: inline-block; white-space: nowrap; padding: .18rem .65rem; border-radius: 999px; font-size: .8rem;
          font-weight: 600; border: 1px solid transparent; }
 .stApp .b-high, .stApp .b-negative { background: rgba(239,68,68,.15); color: var(--c-red) !important; border-color: rgba(239,68,68,.4); }
 .stApp .b-medium { background: rgba(245,158,11,.15); color: var(--c-amb) !important; border-color: rgba(245,158,11,.4); }
@@ -67,6 +101,7 @@ header[data-testid="stHeader"] { background: transparent; }
 .tbl { width: 100%; border-collapse: collapse; font-size: .85rem; }
 .tbl th { position: sticky; top: 0; text-align: left; padding: .55rem .8rem; background: var(--bg2);
           font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; opacity: .85; }
+.tbl td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .tbl td { padding: .5rem .8rem; border-top: 1px solid var(--bd); vertical-align: middle; }
 .tbl tr:hover td { background: var(--card); }
 .meter { display: inline-block; width: 70px; height: 7px; border-radius: 99px; background: var(--bd);
@@ -112,6 +147,8 @@ MODE_CSS = """
 .stApp [data-baseweb="input"], .stApp [data-baseweb="input"] > div, .stApp [data-baseweb="textarea"],
 .stApp [data-baseweb="textarea"] > div, .stApp [data-baseweb="select"] > div {
   background: var(--inp) !important; border-color: var(--bd) !important; }
+.stApp [data-baseweb="select"] *, .stApp [data-baseweb="tag"] * { color: var(--tx) !important; }
+.stApp [data-baseweb="select"] svg { fill: var(--mut) !important; }
 .stApp input, .stApp textarea { color: var(--tx) !important; -webkit-text-fill-color: var(--tx) !important; }
 .stApp input::placeholder, .stApp textarea::placeholder { color: var(--mut) !important; -webkit-text-fill-color: var(--mut) !important; }
 [data-baseweb="popover"] [data-baseweb="menu"], [data-baseweb="popover"] ul { background: var(--bg2) !important; }
@@ -152,12 +189,13 @@ def meter(value: float) -> Safe:
     return Safe(f'<span class="meter"><i style="width:{pct}%"></i></span>{value:.2f}')
 
 
-def bars(data: dict) -> None:
+def bars(data: dict, min_rows: int = 0) -> None:
     top = max(data.values()) if data else 0
+    pad = '<div class="hbar" style="visibility:hidden"><span class="nm">-</span></div>' * max(0, min_rows - len(data))
     rows = "".join(
         f'<div class="hbar"><span class="nm">{_e(k)}</span><span class="tr">'
         f'<i style="width:{(v / top * 100) if top else 0:.0f}%"></i></span><span class="ct">{v}</span></div>'
-        for k, v in data.items())
+        for k, v in data.items()) + pad
     st.markdown(rows, unsafe_allow_html=True)
 
 
@@ -169,21 +207,80 @@ def _e(x: object) -> str:
     return html.escape(str(x))
 
 
-def hero(title: str, subtitle: str, pills: Iterable[str] = ()) -> None:
-    ps = "".join(f'<span class="pill">{_e(p)}</span>' for p in pills)
-    st.markdown(f'<div class="hero"><h1>{_e(title)}</h1><p>{_e(subtitle)}</p>'
-                f'<div class="pills">{ps}</div></div>', unsafe_allow_html=True)
+ICONS = {
+    "bolt": '<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
+    "shield": '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    "clock": '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    "users": '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>'
+             '<path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+    "inbox": '<polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/>'
+             '<path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>',
+    "alert": '<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>'
+             '<line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>',
+    "check": '<polyline points="20 6 9 17 4 12"/>',
+    "layers": '<polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>',
+    "activity": '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>',
+    "target": '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
+}
+
+
+def icon(name: str, size: int = 16) -> Safe:
+    return Safe(f'<span class="ic"><svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" '
+                f'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+                f'stroke-linecap="round" stroke-linejoin="round">{ICONS[name]}</svg></span>')
+
+
+def hero(title: str, subtitle: str, items: Iterable = (), eyebrow: str = "") -> None:
+    its = "".join(f"<span>{icon(i, 15)}{_e(t)}</span>" for i, t in items)
+    eb = f'<div class="eyebrow">{_e(eyebrow)}</div>' if eyebrow else ""
+    st.markdown(f'<div class="hero">{eb}<h1>{_e(title)}</h1><p>{_e(subtitle)}</p>'
+                f'<div class="trust">{its}</div></div>', unsafe_allow_html=True)
+
+
+def brand(section: str, env: str = "") -> None:
+    pill = f'<span class="env">{_e(env)}</span>' if env else ""
+    st.markdown(f'<div class="brand"><span class="logo">{icon("layers", 18)}</span>'
+                f'<span class="name">TicketIQ</span><span class="sep"></span>'
+                f'<span class="sect">{_e(section)}</span>{pill}</div>', unsafe_allow_html=True)
+
+
+def rail_sla(rows: list) -> None:
+    colors = {"high": "#ef4444", "medium": "#f59e0b", "low": "#22c55e"}
+    body = "".join(f'<div class="sla-row"><span><span class="dot" style="background:{colors[k]}"></span>'
+                   f'{_e(k.title())} priority</span><b>{_e(v)}</b></div>' for k, v in rows)
+    st.markdown(f'<div class="rail"><h4>Response targets</h4>{body}</div>', unsafe_allow_html=True)
+
+
+def rail_steps(steps: list) -> None:
+    body = "".join(f'<div class="how"><span class="n">{i}</span><div><b>{_e(t)}</b>'
+                   f'<span class="d">{_e(d)}</span></div></div>' for i, (t, d) in enumerate(steps, 1))
+    st.markdown(f'<div class="rail"><h4>How it works</h4>{body}</div>', unsafe_allow_html=True)
+
+
+def page_header(title: str, sub: str) -> None:
+    st.markdown(f'<p class="page-title">{_e(title)}</p><p class="page-sub">{_e(sub)}</p>', unsafe_allow_html=True)
+
+
+def panel_title(text: str) -> None:
+    st.markdown(f'<div class="panel-title">{_e(text)}</div>', unsafe_allow_html=True)
+
+
+def footer(note: str) -> None:
+    from datetime import datetime
+    st.markdown(f'<div class="footer"><span>© {datetime.now().year} TicketIQ · Privacy · Terms · Security</span>'
+                f'<span>{_e(note)}</span></div>', unsafe_allow_html=True)
 
 
 def badge(text: str, kind: str) -> Safe:
     return Safe(f'<span class="badge b-{_e(kind)}">{_e(text)}</span>')
 
 
-def card(label: str, value: str, sub: str = "", raw_value: bool = False) -> None:
+def card(label: str, value: str, sub: str = "", raw_value: bool = False, icon_name: str = "") -> None:
     v = value if raw_value else _e(value)
-    s = f'<div class="sub">{_e(sub)}</div>' if sub else ""
-    st.markdown(f'<div class="card"><div class="label">{_e(label)}</div>'
-                f'<div class="value">{v}</div>{s}</div>', unsafe_allow_html=True)
+    s_ = f'<div class="sub">{_e(sub)}</div>' if sub else ""
+    chip = f'<span class="chip-ic">{icon(icon_name, 16)}</span>' if icon_name else ""
+    st.markdown(f'<div class="card"><div class="cardhead"><div class="label">{_e(label)}</div>{chip}</div>'
+                f'<div class="value">{v}</div>{s_}</div>', unsafe_allow_html=True)
 
 
 def timeline(status: str) -> None:
@@ -198,8 +295,8 @@ def timeline(status: str) -> None:
     st.markdown(f'<div class="timeline">{"".join(parts)}</div>', unsafe_allow_html=True)
 
 
-def bubble(text: str, who: str = "TicketIQ Assistant") -> None:
-    st.markdown(f'<div class="bubble-row"><div class="avatar">✦</div><div class="bubble">'
+def bubble(text: str, who: str = "TicketIQ Assistant", avatar: str = "✦") -> None:
+    st.markdown(f'<div class="bubble-row"><div class="avatar">{_e(avatar)}</div><div class="bubble">'
                 f'<div class="who">{_e(who)}</div>{_e(text)}</div></div>', unsafe_allow_html=True)
 
 
