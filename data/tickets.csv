@@ -1,0 +1,1201 @@
+id,text,category,priority,sentiment
+1,refund request. Please cancel my renewal and refund the annual charge. We are losing money every minute. This is unacceptable.,billing,high,negative
+2,"double charged. Please cancel my renewal and refund the annual charge. No rush on this. Thanks, I love the product!",billing,low,positive
+3,"invoice missing. I was charged twice for my subscription this month and need a refund.  Thanks, I love the product!",billing,low,positive
+4,"cannot log in. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,low,neutral
+5,add team member. I lost my phone and need to reset two factor authentication. Need help immediately. This is unacceptable.,account,high,negative
+6,reset 2FA. I would like to change the email address on my account.,account,high,neutral
+7,"api access. Please consider integrating with Slack for notifications. We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+8,error 500. The application crashes every time I open the dashboard. Please advise.,technical,medium,neutral
+9,sync not working. I get an error 500 whenever I try to export a report. Let me know.,technical,low,neutral
+10,app crashes. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Really appreciate your help.,technical,low,positive
+11,"error 500. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+12,app crashes. I get an error 500 whenever I try to export a report. Please advise.,technical,medium,neutral
+13,"api access. Can you add an option to export data directly to Excel? Production is down for all our users. Terrible experience, I'm furious.",feature_request,high,negative
+14,"export to excel. Please consider integrating with Slack for notifications.  Thanks, I love the product!",feature_request,low,positive
+15,add team member. Please delete my account and all associated personal data. Let me know.,account,high,neutral
+16,"cannot log in. I cannot log in, it keeps saying my password is invalid. No rush on this. Thanks, I love the product!",technical,medium,positive
+17,"mobile app. Please consider integrating with Slack for notifications.  Great service so far, thank you.",feature_request,low,positive
+18,reset 2FA. How do I add a new team member to our workspace? Please advise.,account,medium,neutral
+19,add team member. I lost my phone and need to reset two factor authentication. Need help immediately. This is unacceptable.,account,high,negative
+20,slow performance. The system is extremely slow and pages take a minute to load. No rush on this. Really appreciate your help.,technical,low,positive
+21,"slow performance. The application crashes every time I open the dashboard. Production is down for all our users. Terrible experience, I'm furious.",technical,medium,negative
+22,"add team member. Please delete my account and all associated personal data. No rush on this. Great service so far, thank you.",account,medium,positive
+23,refund request. Please cancel my renewal and refund the annual charge. This is urgent! This is unacceptable.,billing,high,negative
+24,"slow performance. The system is extremely slow and pages take a minute to load. Need help immediately. Terrible experience, I'm furious.",technical,high,negative
+25,api access. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+26,"change email. How do I add a new team member to our workspace?  Thanks, I love the product!",account,low,positive
+27,refund request. I was charged twice for my subscription this month and need a refund. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+28,cannot log in. I get an error 500 whenever I try to export a report. This is urgent! I am extremely frustrated with your service.,technical,high,negative
+29,"integration idea. Please consider integrating with Slack for notifications. Production is down for all our users. Terrible experience, I'm furious.",feature_request,medium,negative
+30,dark mode. Is a native mobile app on your roadmap? Need help immediately. I am extremely frustrated with your service.,feature_request,high,negative
+31,change email. I would like to change the email address on my account.  Really appreciate your help.,account,low,positive
+32,export to excel. Can you add an option to export data directly to Excel? Please advise.,feature_request,medium,neutral
+33,dark mode. Is a native mobile app on your roadmap? Production is down for all our users. I am extremely frustrated with your service.,feature_request,high,negative
+34,"double charged. My invoice for last month never arrived, can you resend it? This is urgent! This is unacceptable.",billing,medium,negative
+35,"export to excel. Is a native mobile app on your roadmap? Whenever you get a chance. Great service so far, thank you.",feature_request,medium,positive
+36,invoice missing. I was billed the wrong amount after upgrading my plan. Let me know.,billing,high,neutral
+37,integration idea. Please consider integrating with Slack for notifications. We are losing money every minute. This is unacceptable.,feature_request,medium,negative
+38,wrong amount billed. I was billed the wrong amount after upgrading my plan. Please advise.,billing,medium,neutral
+39,"app crashes. I cannot log in, it keeps saying my password is invalid. This is urgent! This is unacceptable.",technical,high,negative
+40,"integration idea. It would be great if you added a dark mode option. Production is down for all our users. Terrible experience, I'm furious.",feature_request,high,negative
+41,api access. Can you add an option to export data directly to Excel?,feature_request,low,neutral
+42,add team member. I need to update my company name and billing profile details. Need help immediately. This is unacceptable.,account,high,negative
+43,update profile. I lost my phone and need to reset two factor authentication. Please advise.,account,medium,neutral
+44,"invoice missing. I was charged twice for my subscription this month and need a refund. Production is down for all our users. Terrible experience, I'm furious.",billing,high,negative
+45,"error 500. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+46,"refund request. My invoice for last month never arrived, can you resend it?",billing,low,neutral
+47,"add team member. How do I add a new team member to our workspace? This is urgent! Terrible experience, I'm furious.",account,high,negative
+48,slow performance. Data sync between my phone and desktop has stopped working. Please advise.,technical,low,neutral
+49,update profile. How do I add a new team member to our workspace? Please advise.,account,medium,neutral
+50,"double charged. I was billed the wrong amount after upgrading my plan. Production is down for all our users. Terrible experience, I'm furious.",billing,medium,negative
+51,"export to excel. Please consider integrating with Slack for notifications. No rush on this. Thanks, I love the product!",feature_request,medium,positive
+52,"payment failed. My invoice for last month never arrived, can you resend it?",billing,medium,neutral
+53,"double charged. I was charged twice for my subscription this month and need a refund. No rush on this. Great service so far, thank you.",billing,low,positive
+54,delete account. Please delete my account and all associated personal data. Let me know.,account,medium,neutral
+55,error 500. Data sync between my phone and desktop has stopped working. Please advise.,technical,medium,neutral
+56,"sync not working. I cannot log in, it keeps saying my password is invalid. This is urgent! I am extremely frustrated with your service.",technical,high,negative
+57,"error 500. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,low,neutral
+58,app crashes. I get an error 500 whenever I try to export a report. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+59,change email. I would like to change the email address on my account. Let me know.,account,low,neutral
+60,update profile. How do I add a new team member to our workspace? We are losing money every minute. This is unacceptable.,account,high,negative
+61,"delete account. How do I add a new team member to our workspace? No rush on this. Great service so far, thank you.",account,medium,positive
+62,invoice missing. I was billed the wrong amount after upgrading my plan. Please advise.,billing,medium,neutral
+63,refund request. The payment on my credit card failed but the money left my account. Let me know.,billing,low,neutral
+64,add team member. I lost my phone and need to reset two factor authentication. Let me know.,account,high,neutral
+65,"cannot log in. The system is extremely slow and pages take a minute to load. Need help immediately. Terrible experience, I'm furious.",technical,high,negative
+66,"update profile. I lost my phone and need to reset two factor authentication. No rush on this. Great service so far, thank you.",account,low,positive
+67,update profile. Please delete my account and all associated personal data.  Really appreciate your help.,account,low,positive
+68,double charged. The payment on my credit card failed but the money left my account. We are losing money every minute. This is unacceptable.,billing,high,negative
+69,"app crashes. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,medium,neutral
+70,mobile app. Please consider integrating with Slack for notifications. Please advise.,feature_request,high,neutral
+71,"sync not working. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,high,neutral
+72,"sync not working. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,medium,neutral
+73,app crashes. The system is extremely slow and pages take a minute to load.,technical,high,neutral
+74,cannot log in. Data sync between my phone and desktop has stopped working. Please advise.,technical,high,neutral
+75,reset 2FA. I need to update my company name and billing profile details. Let me know.,account,high,neutral
+76,"error 500. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,high,neutral
+77,delete account. How do I add a new team member to our workspace?,account,high,neutral
+78,api access. Please consider integrating with Slack for notifications. We are losing money every minute. This is unacceptable.,feature_request,high,negative
+79,double charged. I was charged twice for my subscription this month and need a refund. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+80,"mobile app. Is a native mobile app on your roadmap?  Great service so far, thank you.",feature_request,low,positive
+81,payment failed. I was charged twice for my subscription this month and need a refund.,billing,high,neutral
+82,reset 2FA. I lost my phone and need to reset two factor authentication. Need help immediately. I am extremely frustrated with your service.,account,high,negative
+83,"sync not working. I get an error 500 whenever I try to export a report. Just a small question. Great service so far, thank you.",technical,low,positive
+84,integration idea. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+85,refund request. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+86,error 500. Data sync between my phone and desktop has stopped working. Please advise.,technical,medium,neutral
+87,update profile. How do I add a new team member to our workspace? We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+88,integration idea. It would be great if you added a dark mode option. This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+89,"change email. Please delete my account and all associated personal data. This is urgent! Terrible experience, I'm furious.",account,high,negative
+90,"cannot log in. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+91,mobile app. We would love public API access to automate our workflows.,feature_request,medium,neutral
+92,change email. I lost my phone and need to reset two factor authentication. This is urgent! This is unacceptable.,account,medium,negative
+93,"payment failed. My invoice for last month never arrived, can you resend it?",billing,high,neutral
+94,"invoice missing. Please cancel my renewal and refund the annual charge. Whenever you get a chance. Thanks, I love the product!",billing,low,positive
+95,invoice missing. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+96,dark mode. Is a native mobile app on your roadmap? Please advise.,feature_request,low,neutral
+97,"mobile app. Can you add an option to export data directly to Excel? We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+98,"integration idea. Is a native mobile app on your roadmap? We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+99,"dark mode. We would love public API access to automate our workflows. Just a small question. Great service so far, thank you.",feature_request,medium,positive
+100,"mobile app. We would love public API access to automate our workflows. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+101,"invoice missing. The payment on my credit card failed but the money left my account. Just a small question. Thanks, I love the product!",billing,low,positive
+102,"delete account. I would like to change the email address on my account. We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+103,sync not working. Data sync between my phone and desktop has stopped working. Let me know.,technical,medium,neutral
+104,export to excel. Is a native mobile app on your roadmap? Please advise.,feature_request,low,neutral
+105,"error 500. Data sync between my phone and desktop has stopped working. Just a small question. Great service so far, thank you.",technical,low,positive
+106,"delete account. I would like to change the email address on my account.  Great service so far, thank you.",account,low,positive
+107,"sync not working. I get an error 500 whenever I try to export a report. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+108,delete account. How do I add a new team member to our workspace? Please advise.,account,low,neutral
+109,"app crashes. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+110,change email. I would like to change the email address on my account. Please advise.,account,high,neutral
+111,"change email. How do I add a new team member to our workspace?  Great service so far, thank you.",account,low,positive
+112,integration idea. It would be great if you added a dark mode option. This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+113,app crashes. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,medium,negative
+114,integration idea. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+115,api access. Please consider integrating with Slack for notifications. Let me know.,feature_request,high,neutral
+116,"double charged. My invoice for last month never arrived, can you resend it?",billing,medium,neutral
+117,delete account. I lost my phone and need to reset two factor authentication. Please advise.,account,medium,neutral
+118,payment failed. The payment on my credit card failed but the money left my account. Need help immediately. I am extremely frustrated with your service.,billing,high,negative
+119,"refund request. My invoice for last month never arrived, can you resend it? We are losing money every minute. Terrible experience, I'm furious.",billing,high,negative
+120,update profile. I would like to change the email address on my account.,account,medium,neutral
+121,app crashes. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+122,sync not working. The application crashes every time I open the dashboard.,technical,low,neutral
+123,api access. Please consider integrating with Slack for notifications.,feature_request,high,neutral
+124,"integration idea. We would love public API access to automate our workflows. No rush on this. Great service so far, thank you.",feature_request,low,positive
+125,"wrong amount billed. I was charged twice for my subscription this month and need a refund. This is urgent! Terrible experience, I'm furious.",billing,high,negative
+126,"slow performance. Data sync between my phone and desktop has stopped working.  Great service so far, thank you.",technical,low,positive
+127,mobile app. We would love public API access to automate our workflows. Let me know.,feature_request,low,neutral
+128,update profile. I need to update my company name and billing profile details. Please advise.,account,low,neutral
+129,update profile. I would like to change the email address on my account. Let me know.,account,medium,neutral
+130,change email. I lost my phone and need to reset two factor authentication. This is urgent! I am extremely frustrated with your service.,account,high,negative
+131,mobile app. Is a native mobile app on your roadmap? Whenever you get a chance. Really appreciate your help.,feature_request,low,positive
+132,payment failed. I was charged twice for my subscription this month and need a refund. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+133,double charged. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+134,"refund request. I was billed the wrong amount after upgrading my plan. No rush on this. Thanks, I love the product!",billing,medium,positive
+135,invoice missing. Please cancel my renewal and refund the annual charge. Please advise.,billing,high,neutral
+136,"reset 2FA. Please delete my account and all associated personal data.  Great service so far, thank you.",account,low,positive
+137,mobile app. We would love public API access to automate our workflows. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+138,reset 2FA. I lost my phone and need to reset two factor authentication. Let me know.,account,low,neutral
+139,api access. We would love public API access to automate our workflows. Let me know.,feature_request,high,neutral
+140,"export to excel. Please consider integrating with Slack for notifications. Just a small question. Thanks, I love the product!",feature_request,medium,positive
+141,mobile app. Is a native mobile app on your roadmap? Need help immediately. This is unacceptable.,feature_request,high,negative
+142,mobile app. It would be great if you added a dark mode option.,feature_request,medium,neutral
+143,"sync not working. The application crashes every time I open the dashboard. Just a small question. Thanks, I love the product!",technical,medium,positive
+144,export to excel. It would be great if you added a dark mode option. Production is down for all our users. I am extremely frustrated with your service.,feature_request,high,negative
+145,integration idea. Is a native mobile app on your roadmap? Let me know.,feature_request,low,neutral
+146,invoice missing. I was billed the wrong amount after upgrading my plan.,billing,high,neutral
+147,double charged. I was charged twice for my subscription this month and need a refund. Please advise.,billing,low,neutral
+148,mobile app. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+149,change email. How do I add a new team member to our workspace? Please advise.,account,low,neutral
+150,"reset 2FA. Please delete my account and all associated personal data. Whenever you get a chance. Thanks, I love the product!",account,low,positive
+151,"sync not working. The system is extremely slow and pages take a minute to load. Need help immediately. Terrible experience, I'm furious.",technical,high,negative
+152,app crashes. Data sync between my phone and desktop has stopped working. We are losing money every minute. I am extremely frustrated with your service.,technical,high,negative
+153,update profile. How do I add a new team member to our workspace? Please advise.,account,medium,neutral
+154,update profile. How do I add a new team member to our workspace? Let me know.,account,low,neutral
+155,cannot log in. Data sync between my phone and desktop has stopped working. Let me know.,technical,medium,neutral
+156,"update profile. How do I add a new team member to our workspace? Just a small question. Thanks, I love the product!",account,medium,positive
+157,"invoice missing. My invoice for last month never arrived, can you resend it? No rush on this. Really appreciate your help.",billing,low,positive
+158,"delete account. I would like to change the email address on my account. Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+159,"double charged. I was charged twice for my subscription this month and need a refund.  Thanks, I love the product!",billing,low,positive
+160,"reset 2FA. How do I add a new team member to our workspace?  Thanks, I love the product!",account,low,positive
+161,add team member. How do I add a new team member to our workspace? Let me know.,account,high,neutral
+162,"double charged. I was billed the wrong amount after upgrading my plan. No rush on this. Thanks, I love the product!",billing,low,positive
+163,change email. I need to update my company name and billing profile details. Need help immediately. This is unacceptable.,account,high,negative
+164,reset 2FA. I need to update my company name and billing profile details.,account,low,neutral
+165,reset 2FA. How do I add a new team member to our workspace? Production is down for all our users. I am extremely frustrated with your service.,account,high,negative
+166,error 500. Data sync between my phone and desktop has stopped working.,technical,high,neutral
+167,refund request. I was charged twice for my subscription this month and need a refund. This is urgent! I am extremely frustrated with your service.,billing,medium,negative
+168,sync not working. I get an error 500 whenever I try to export a report. Please advise.,technical,high,neutral
+169,"mobile app. Please consider integrating with Slack for notifications. Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+170,api access. Can you add an option to export data directly to Excel? Let me know.,feature_request,medium,neutral
+171,"api access. Please consider integrating with Slack for notifications. Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+172,update profile. I would like to change the email address on my account. We are losing money every minute. This is unacceptable.,account,medium,negative
+173,app crashes. I get an error 500 whenever I try to export a report.,technical,medium,neutral
+174,app crashes. The system is extremely slow and pages take a minute to load.,technical,medium,neutral
+175,"slow performance. The application crashes every time I open the dashboard. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+176,reset 2FA. How do I add a new team member to our workspace? Please advise.,account,medium,neutral
+177,cannot log in. The system is extremely slow and pages take a minute to load. This is urgent! This is unacceptable.,technical,high,negative
+178,update profile. I lost my phone and need to reset two factor authentication. We are losing money every minute. This is unacceptable.,account,high,negative
+179,invoice missing. Please cancel my renewal and refund the annual charge. Let me know.,billing,high,neutral
+180,wrong amount billed. The payment on my credit card failed but the money left my account. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+181,mobile app. Is a native mobile app on your roadmap? Please advise.,feature_request,medium,neutral
+182,dark mode. It would be great if you added a dark mode option. Let me know.,feature_request,high,neutral
+183,add team member. I lost my phone and need to reset two factor authentication. Please advise.,account,medium,neutral
+184,"update profile. I would like to change the email address on my account. Just a small question. Great service so far, thank you.",account,low,positive
+185,payment failed. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+186,"app crashes. I get an error 500 whenever I try to export a report.  Great service so far, thank you.",technical,low,positive
+187,"mobile app. It would be great if you added a dark mode option. Just a small question. Great service so far, thank you.",feature_request,medium,positive
+188,refund request. The payment on my credit card failed but the money left my account. Please advise.,billing,high,neutral
+189,error 500. Data sync between my phone and desktop has stopped working. Just a small question. Really appreciate your help.,technical,low,positive
+190,invoice missing. I was charged twice for my subscription this month and need a refund.,billing,low,neutral
+191,error 500. The system is extremely slow and pages take a minute to load. Need help immediately. This is unacceptable.,technical,high,negative
+192,"update profile. I lost my phone and need to reset two factor authentication. We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+193,"refund request. My invoice for last month never arrived, can you resend it?",billing,low,neutral
+194,add team member. I would like to change the email address on my account. Let me know.,account,low,neutral
+195,"app crashes. I cannot log in, it keeps saying my password is invalid.",technical,high,neutral
+196,"invoice missing. My invoice for last month never arrived, can you resend it? Production is down for all our users. I am extremely frustrated with your service.",billing,high,negative
+197,change email. Please delete my account and all associated personal data. Just a small question. Really appreciate your help.,account,low,positive
+198,error 500. Data sync between my phone and desktop has stopped working. Please advise.,technical,medium,neutral
+199,"integration idea. It would be great if you added a dark mode option.  Great service so far, thank you.",feature_request,low,positive
+200,update profile. I lost my phone and need to reset two factor authentication. Just a small question. Really appreciate your help.,account,low,positive
+201,"delete account. How do I add a new team member to our workspace? Need help immediately. Terrible experience, I'm furious.",account,high,negative
+202,error 500. The application crashes every time I open the dashboard. Let me know.,technical,low,neutral
+203,"wrong amount billed. My invoice for last month never arrived, can you resend it?  Thanks, I love the product!",billing,low,positive
+204,change email. How do I add a new team member to our workspace? This is urgent! I am extremely frustrated with your service.,account,high,negative
+205,"dark mode. We would love public API access to automate our workflows.  Great service so far, thank you.",feature_request,low,positive
+206,error 500. The application crashes every time I open the dashboard.,technical,high,neutral
+207,integration idea. Is a native mobile app on your roadmap? Please advise.,feature_request,high,neutral
+208,"invoice missing. My invoice for last month never arrived, can you resend it? Just a small question. Really appreciate your help.",billing,low,positive
+209,invoice missing. The payment on my credit card failed but the money left my account. No rush on this. Really appreciate your help.,billing,low,positive
+210,"slow performance. I cannot log in, it keeps saying my password is invalid. Production is down for all our users. I am extremely frustrated with your service.",technical,high,negative
+211,wrong amount billed. I was billed the wrong amount after upgrading my plan. Need help immediately. I am extremely frustrated with your service.,billing,high,negative
+212,delete account. I need to update my company name and billing profile details.,account,low,neutral
+213,"invoice missing. Please cancel my renewal and refund the annual charge. Just a small question. Great service so far, thank you.",billing,low,positive
+214,"invoice missing. I was charged twice for my subscription this month and need a refund.  Thanks, I love the product!",billing,low,positive
+215,payment failed. Please cancel my renewal and refund the annual charge.,billing,high,neutral
+216,"wrong amount billed. My invoice for last month never arrived, can you resend it? Whenever you get a chance. Great service so far, thank you.",billing,low,positive
+217,double charged. I was charged twice for my subscription this month and need a refund. Just a small question. Really appreciate your help.,billing,low,positive
+218,error 500. I get an error 500 whenever I try to export a report. Let me know.,technical,medium,neutral
+219,add team member. I would like to change the email address on my account. Just a small question. Really appreciate your help.,account,low,positive
+220,reset 2FA. Please delete my account and all associated personal data. Need help immediately. I am extremely frustrated with your service.,account,high,negative
+221,update profile. Please delete my account and all associated personal data. Production is down for all our users. I am extremely frustrated with your service.,account,high,negative
+222,double charged. Please cancel my renewal and refund the annual charge.  Really appreciate your help.,billing,low,positive
+223,refund request. The payment on my credit card failed but the money left my account. Let me know.,billing,low,neutral
+224,update profile. Please delete my account and all associated personal data. Production is down for all our users. I am extremely frustrated with your service.,account,medium,negative
+225,error 500. The application crashes every time I open the dashboard. Please advise.,technical,medium,neutral
+226,wrong amount billed. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+227,"sync not working. I get an error 500 whenever I try to export a report. Production is down for all our users. Terrible experience, I'm furious.",technical,high,negative
+228,"sync not working. I cannot log in, it keeps saying my password is invalid.",technical,low,neutral
+229,"slow performance. Data sync between my phone and desktop has stopped working.  Thanks, I love the product!",technical,low,positive
+230,export to excel. Can you add an option to export data directly to Excel? Let me know.,feature_request,high,neutral
+231,error 500. The system is extremely slow and pages take a minute to load. Please advise.,technical,high,neutral
+232,invoice missing. I was charged twice for my subscription this month and need a refund.,billing,medium,neutral
+233,cannot log in. Data sync between my phone and desktop has stopped working. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+234,update profile. I lost my phone and need to reset two factor authentication. Let me know.,account,medium,neutral
+235,add team member. I would like to change the email address on my account. This is urgent! I am extremely frustrated with your service.,account,high,negative
+236,add team member. I need to update my company name and billing profile details. Please advise.,account,medium,neutral
+237,slow performance. The application crashes every time I open the dashboard. Let me know.,technical,high,neutral
+238,wrong amount billed. Please cancel my renewal and refund the annual charge. Production is down for all our users. This is unacceptable.,billing,high,negative
+239,dark mode. Can you add an option to export data directly to Excel? We are losing money every minute. This is unacceptable.,feature_request,high,negative
+240,dark mode. It would be great if you added a dark mode option.,feature_request,high,neutral
+241,export to excel. Can you add an option to export data directly to Excel? No rush on this. Really appreciate your help.,feature_request,low,positive
+242,"delete account. I would like to change the email address on my account. Just a small question. Thanks, I love the product!",account,low,positive
+243,change email. I need to update my company name and billing profile details. This is urgent! I am extremely frustrated with your service.,account,high,negative
+244,add team member. Please delete my account and all associated personal data. This is urgent! I am extremely frustrated with your service.,account,high,negative
+245,double charged. I was charged twice for my subscription this month and need a refund.,billing,low,neutral
+246,update profile. Please delete my account and all associated personal data. Whenever you get a chance. Really appreciate your help.,account,low,positive
+247,"app crashes. I cannot log in, it keeps saying my password is invalid. Need help immediately. This is unacceptable.",technical,high,negative
+248,wrong amount billed. I was billed the wrong amount after upgrading my plan. Just a small question. Really appreciate your help.,billing,low,positive
+249,change email. How do I add a new team member to our workspace? Production is down for all our users. I am extremely frustrated with your service.,account,high,negative
+250,update profile. I need to update my company name and billing profile details. We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+251,add team member. I lost my phone and need to reset two factor authentication. Let me know.,account,high,neutral
+252,change email. I need to update my company name and billing profile details.,account,high,neutral
+253,"error 500. I get an error 500 whenever I try to export a report. Just a small question. Thanks, I love the product!",technical,low,positive
+254,mobile app. We would love public API access to automate our workflows. Let me know.,feature_request,medium,neutral
+255,"api access. It would be great if you added a dark mode option. We are losing money every minute. Terrible experience, I'm furious.",feature_request,medium,negative
+256,"wrong amount billed. My invoice for last month never arrived, can you resend it? Let me know.",billing,low,neutral
+257,double charged. The payment on my credit card failed but the money left my account. Need help immediately. This is unacceptable.,billing,high,negative
+258,update profile. How do I add a new team member to our workspace? No rush on this. Really appreciate your help.,account,low,positive
+259,add team member. I need to update my company name and billing profile details. No rush on this. Really appreciate your help.,account,low,positive
+260,change email. Please delete my account and all associated personal data. Please advise.,account,medium,neutral
+261,"mobile app. Can you add an option to export data directly to Excel? No rush on this. Great service so far, thank you.",feature_request,low,positive
+262,change email. Please delete my account and all associated personal data. Let me know.,account,medium,neutral
+263,"invoice missing. The payment on my credit card failed but the money left my account.  Thanks, I love the product!",billing,low,positive
+264,"double charged. The payment on my credit card failed but the money left my account. Just a small question. Great service so far, thank you.",billing,medium,positive
+265,sync not working. The application crashes every time I open the dashboard. Production is down for all our users. This is unacceptable.,technical,high,negative
+266,"reset 2FA. Please delete my account and all associated personal data. Just a small question. Great service so far, thank you.",account,low,positive
+267,"wrong amount billed. I was billed the wrong amount after upgrading my plan. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+268,api access. It would be great if you added a dark mode option. Please advise.,feature_request,medium,neutral
+269,"integration idea. Please consider integrating with Slack for notifications. Just a small question. Thanks, I love the product!",feature_request,medium,positive
+270,slow performance. The application crashes every time I open the dashboard. Please advise.,technical,high,neutral
+271,"double charged. The payment on my credit card failed but the money left my account. Just a small question. Thanks, I love the product!",billing,low,positive
+272,reset 2FA. How do I add a new team member to our workspace? Let me know.,account,medium,neutral
+273,"slow performance. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+274,"app crashes. The application crashes every time I open the dashboard. We are losing money every minute. Terrible experience, I'm furious.",technical,high,negative
+275,double charged. Please cancel my renewal and refund the annual charge.,billing,low,neutral
+276,integration idea. We would love public API access to automate our workflows. Please advise.,feature_request,high,neutral
+277,"change email. Please delete my account and all associated personal data.  Great service so far, thank you.",account,low,positive
+278,"export to excel. We would love public API access to automate our workflows.  Thanks, I love the product!",feature_request,low,positive
+279,delete account. How do I add a new team member to our workspace? Let me know.,account,high,neutral
+280,"double charged. My invoice for last month never arrived, can you resend it?  Thanks, I love the product!",billing,low,positive
+281,"double charged. The payment on my credit card failed but the money left my account. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+282,update profile. I need to update my company name and billing profile details. Production is down for all our users. I am extremely frustrated with your service.,account,medium,negative
+283,"delete account. Please delete my account and all associated personal data. No rush on this. Great service so far, thank you.",account,low,positive
+284,update profile. How do I add a new team member to our workspace? We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+285,invoice missing. The payment on my credit card failed but the money left my account. Let me know.,billing,medium,neutral
+286,"export to excel. We would love public API access to automate our workflows.  Thanks, I love the product!",feature_request,low,positive
+287,"reset 2FA. I lost my phone and need to reset two factor authentication. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+288,invoice missing. Please cancel my renewal and refund the annual charge. This is urgent! I am extremely frustrated with your service.,billing,high,negative
+289,reset 2FA. I would like to change the email address on my account. Please advise.,account,high,neutral
+290,double charged. Please cancel my renewal and refund the annual charge. We are losing money every minute. I am extremely frustrated with your service.,billing,high,negative
+291,"slow performance. I get an error 500 whenever I try to export a report. Just a small question. Thanks, I love the product!",technical,low,positive
+292,update profile. I would like to change the email address on my account.  Really appreciate your help.,account,low,positive
+293,"change email. I lost my phone and need to reset two factor authentication. No rush on this. Great service so far, thank you.",account,low,positive
+294,"mobile app. Can you add an option to export data directly to Excel? Production is down for all our users. Terrible experience, I'm furious.",feature_request,high,negative
+295,dark mode. Can you add an option to export data directly to Excel? Production is down for all our users. This is unacceptable.,feature_request,high,negative
+296,"double charged. I was billed the wrong amount after upgrading my plan.  Thanks, I love the product!",billing,low,positive
+297,export to excel. Please consider integrating with Slack for notifications.,feature_request,medium,neutral
+298,cannot log in. Data sync between my phone and desktop has stopped working.  Really appreciate your help.,technical,low,positive
+299,delete account. How do I add a new team member to our workspace? Just a small question. Really appreciate your help.,account,low,positive
+300,update profile. How do I add a new team member to our workspace? We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+301,"integration idea. Is a native mobile app on your roadmap? Just a small question. Great service so far, thank you.",feature_request,low,positive
+302,dark mode. We would love public API access to automate our workflows. Please advise.,feature_request,low,neutral
+303,"payment failed. My invoice for last month never arrived, can you resend it?  Really appreciate your help.",billing,low,positive
+304,cannot log in. The application crashes every time I open the dashboard. Let me know.,technical,low,neutral
+305,"app crashes. Data sync between my phone and desktop has stopped working. Production is down for all our users. Terrible experience, I'm furious.",technical,high,negative
+306,change email. I lost my phone and need to reset two factor authentication. Please advise.,account,medium,neutral
+307,"error 500. I get an error 500 whenever I try to export a report.  Great service so far, thank you.",technical,low,positive
+308,reset 2FA. I would like to change the email address on my account. Please advise.,account,medium,neutral
+309,"sync not working. Data sync between my phone and desktop has stopped working. Whenever you get a chance. Thanks, I love the product!",technical,medium,positive
+310,app crashes. I get an error 500 whenever I try to export a report. Let me know.,technical,medium,neutral
+311,payment failed. Please cancel my renewal and refund the annual charge. Let me know.,billing,low,neutral
+312,api access. Can you add an option to export data directly to Excel? Please advise.,feature_request,high,neutral
+313,double charged. I was charged twice for my subscription this month and need a refund.  Really appreciate your help.,billing,low,positive
+314,delete account. I lost my phone and need to reset two factor authentication.,account,medium,neutral
+315,dark mode. Is a native mobile app on your roadmap?,feature_request,low,neutral
+316,double charged. I was charged twice for my subscription this month and need a refund. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+317,"add team member. I lost my phone and need to reset two factor authentication.  Great service so far, thank you.",account,medium,positive
+318,"refund request. I was billed the wrong amount after upgrading my plan. We are losing money every minute. Terrible experience, I'm furious.",billing,high,negative
+319,"add team member. How do I add a new team member to our workspace? We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+320,slow performance. I get an error 500 whenever I try to export a report. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+321,export to excel. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+322,"refund request. I was charged twice for my subscription this month and need a refund. Just a small question. Thanks, I love the product!",billing,medium,positive
+323,"slow performance. Data sync between my phone and desktop has stopped working. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+324,refund request. Please cancel my renewal and refund the annual charge.,billing,high,neutral
+325,integration idea. Is a native mobile app on your roadmap? Let me know.,feature_request,medium,neutral
+326,dark mode. Is a native mobile app on your roadmap?  Really appreciate your help.,feature_request,low,positive
+327,reset 2FA. I would like to change the email address on my account.,account,medium,neutral
+328,refund request. I was billed the wrong amount after upgrading my plan. No rush on this. Really appreciate your help.,billing,medium,positive
+329,payment failed. The payment on my credit card failed but the money left my account. Production is down for all our users. This is unacceptable.,billing,high,negative
+330,"integration idea. Can you add an option to export data directly to Excel?  Great service so far, thank you.",feature_request,low,positive
+331,"delete account. I would like to change the email address on my account. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+332,wrong amount billed. I was billed the wrong amount after upgrading my plan. Let me know.,billing,high,neutral
+333,app crashes. The application crashes every time I open the dashboard. We are losing money every minute. This is unacceptable.,technical,high,negative
+334,export to excel. It would be great if you added a dark mode option. Please advise.,feature_request,medium,neutral
+335,"refund request. My invoice for last month never arrived, can you resend it?  Really appreciate your help.",billing,low,positive
+336,"refund request. My invoice for last month never arrived, can you resend it? Whenever you get a chance. Really appreciate your help.",billing,low,positive
+337,"add team member. Please delete my account and all associated personal data. We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+338,update profile. How do I add a new team member to our workspace?,account,medium,neutral
+339,"reset 2FA. I need to update my company name and billing profile details. Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+340,wrong amount billed. The payment on my credit card failed but the money left my account.,billing,high,neutral
+341,"integration idea. Is a native mobile app on your roadmap? Just a small question. Great service so far, thank you.",feature_request,low,positive
+342,sync not working. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+343,mobile app. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+344,change email. I lost my phone and need to reset two factor authentication. This is urgent! I am extremely frustrated with your service.,account,high,negative
+345,"app crashes. The application crashes every time I open the dashboard. Need help immediately. Terrible experience, I'm furious.",technical,high,negative
+346,"sync not working. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+347,"change email. I need to update my company name and billing profile details. No rush on this. Thanks, I love the product!",account,medium,positive
+348,"sync not working. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+349,reset 2FA. How do I add a new team member to our workspace? Let me know.,account,high,neutral
+350,update profile. How do I add a new team member to our workspace? Need help immediately. I am extremely frustrated with your service.,account,high,negative
+351,"cannot log in. I cannot log in, it keeps saying my password is invalid.  Thanks, I love the product!",technical,low,positive
+352,"invoice missing. My invoice for last month never arrived, can you resend it? Need help immediately. I am extremely frustrated with your service.",billing,high,negative
+353,"api access. We would love public API access to automate our workflows. Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+354,mobile app. Can you add an option to export data directly to Excel?,feature_request,high,neutral
+355,reset 2FA. I would like to change the email address on my account. Need help immediately. This is unacceptable.,account,medium,negative
+356,refund request. I was billed the wrong amount after upgrading my plan. Please advise.,billing,medium,neutral
+357,cannot log in. The application crashes every time I open the dashboard. Please advise.,technical,medium,neutral
+358,"slow performance. Data sync between my phone and desktop has stopped working. Just a small question. Thanks, I love the product!",technical,low,positive
+359,api access. Please consider integrating with Slack for notifications. Need help immediately. This is unacceptable.,feature_request,high,negative
+360,change email. I lost my phone and need to reset two factor authentication. Need help immediately. This is unacceptable.,account,high,negative
+361,sync not working. The application crashes every time I open the dashboard. We are losing money every minute. I am extremely frustrated with your service.,technical,high,negative
+362,delete account. How do I add a new team member to our workspace? Let me know.,account,medium,neutral
+363,refund request. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+364,"export to excel. It would be great if you added a dark mode option.  Thanks, I love the product!",feature_request,low,positive
+365,integration idea. It would be great if you added a dark mode option.,feature_request,low,neutral
+366,refund request. The payment on my credit card failed but the money left my account. Need help immediately. I am extremely frustrated with your service.,billing,high,negative
+367,"wrong amount billed. My invoice for last month never arrived, can you resend it? We are losing money every minute. This is unacceptable.",billing,medium,negative
+368,integration idea. Can you add an option to export data directly to Excel? Let me know.,feature_request,medium,neutral
+369,mobile app. Can you add an option to export data directly to Excel?,feature_request,low,neutral
+370,"double charged. I was charged twice for my subscription this month and need a refund. Just a small question. Thanks, I love the product!",billing,low,positive
+371,add team member. I would like to change the email address on my account.,account,high,neutral
+372,delete account. How do I add a new team member to our workspace? Let me know.,account,high,neutral
+373,"api access. Can you add an option to export data directly to Excel?  Thanks, I love the product!",feature_request,low,positive
+374,double charged. I was billed the wrong amount after upgrading my plan. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+375,"update profile. How do I add a new team member to our workspace? No rush on this. Thanks, I love the product!",account,medium,positive
+376,reset 2FA. I lost my phone and need to reset two factor authentication. This is urgent! This is unacceptable.,account,high,negative
+377,integration idea. Please consider integrating with Slack for notifications. This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+378,update profile. I need to update my company name and billing profile details. Please advise.,account,low,neutral
+379,wrong amount billed. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+380,error 500. I get an error 500 whenever I try to export a report. Please advise.,technical,medium,neutral
+381,"update profile. How do I add a new team member to our workspace? No rush on this. Thanks, I love the product!",account,low,positive
+382,export to excel. Is a native mobile app on your roadmap? Let me know.,feature_request,low,neutral
+383,"sync not working. I get an error 500 whenever I try to export a report. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+384,api access. Is a native mobile app on your roadmap? Let me know.,feature_request,high,neutral
+385,"sync not working. I get an error 500 whenever I try to export a report. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+386,reset 2FA. Please delete my account and all associated personal data.,account,high,neutral
+387,"reset 2FA. Please delete my account and all associated personal data.  Great service so far, thank you.",account,low,positive
+388,"sync not working. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+389,mobile app. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+390,cannot log in. Data sync between my phone and desktop has stopped working. Please advise.,technical,low,neutral
+391,"integration idea. Is a native mobile app on your roadmap? Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+392,"refund request. My invoice for last month never arrived, can you resend it? Let me know.",billing,medium,neutral
+393,"update profile. How do I add a new team member to our workspace? This is urgent! Terrible experience, I'm furious.",account,medium,negative
+394,integration idea. Please consider integrating with Slack for notifications. This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+395,"slow performance. The system is extremely slow and pages take a minute to load.  Great service so far, thank you.",technical,low,positive
+396,"sync not working. The application crashes every time I open the dashboard. No rush on this. Great service so far, thank you.",technical,low,positive
+397,invoice missing. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+398,update profile. I would like to change the email address on my account. Whenever you get a chance. Really appreciate your help.,account,low,positive
+399,dark mode. We would love public API access to automate our workflows. Let me know.,feature_request,low,neutral
+400,invoice missing. I was charged twice for my subscription this month and need a refund. Please advise.,billing,medium,neutral
+401,"slow performance. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+402,"sync not working. I cannot log in, it keeps saying my password is invalid.  Great service so far, thank you.",technical,low,positive
+403,app crashes. The system is extremely slow and pages take a minute to load. Let me know.,technical,high,neutral
+404,"cannot log in. I cannot log in, it keeps saying my password is invalid.  Great service so far, thank you.",technical,low,positive
+405,reset 2FA. Please delete my account and all associated personal data. Please advise.,account,medium,neutral
+406,"update profile. I lost my phone and need to reset two factor authentication.  Thanks, I love the product!",account,low,positive
+407,add team member. I need to update my company name and billing profile details.  Really appreciate your help.,account,low,positive
+408,slow performance. The system is extremely slow and pages take a minute to load.,technical,low,neutral
+409,double charged. The payment on my credit card failed but the money left my account. Let me know.,billing,medium,neutral
+410,"wrong amount billed. My invoice for last month never arrived, can you resend it? Production is down for all our users. Terrible experience, I'm furious.",billing,high,negative
+411,export to excel. Please consider integrating with Slack for notifications.  Really appreciate your help.,feature_request,low,positive
+412,"sync not working. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+413,"double charged. My invoice for last month never arrived, can you resend it? Please advise.",billing,high,neutral
+414,mobile app. Is a native mobile app on your roadmap?,feature_request,high,neutral
+415,export to excel. It would be great if you added a dark mode option. Let me know.,feature_request,high,neutral
+416,refund request. The payment on my credit card failed but the money left my account. Please advise.,billing,low,neutral
+417,"sync not working. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+418,invoice missing. Please cancel my renewal and refund the annual charge. Just a small question. Really appreciate your help.,billing,low,positive
+419,payment failed. I was charged twice for my subscription this month and need a refund. Let me know.,billing,medium,neutral
+420,app crashes. Data sync between my phone and desktop has stopped working. This is urgent! I am extremely frustrated with your service.,technical,high,negative
+421,wrong amount billed. The payment on my credit card failed but the money left my account. Please advise.,billing,medium,neutral
+422,dark mode. Please consider integrating with Slack for notifications. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+423,"add team member. How do I add a new team member to our workspace? Whenever you get a chance. Great service so far, thank you.",account,medium,positive
+424,delete account. I need to update my company name and billing profile details.,account,medium,neutral
+425,"double charged. My invoice for last month never arrived, can you resend it?",billing,medium,neutral
+426,"sync not working. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,high,neutral
+427,change email. I would like to change the email address on my account. Let me know.,account,high,neutral
+428,api access. Is a native mobile app on your roadmap? Just a small question. Really appreciate your help.,feature_request,medium,positive
+429,mobile app. We would love public API access to automate our workflows. No rush on this. Really appreciate your help.,feature_request,low,positive
+430,"payment failed. My invoice for last month never arrived, can you resend it? Let me know.",billing,medium,neutral
+431,export to excel. Please consider integrating with Slack for notifications. We are losing money every minute. I am extremely frustrated with your service.,feature_request,high,negative
+432,dark mode. It would be great if you added a dark mode option.,feature_request,medium,neutral
+433,mobile app. Can you add an option to export data directly to Excel? Production is down for all our users. I am extremely frustrated with your service.,feature_request,high,negative
+434,error 500. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+435,"delete account. I would like to change the email address on my account. We are losing money every minute. Terrible experience, I'm furious.",account,medium,negative
+436,mobile app. It would be great if you added a dark mode option.,feature_request,medium,neutral
+437,double charged. Please cancel my renewal and refund the annual charge. Need help immediately. This is unacceptable.,billing,high,negative
+438,mobile app. Can you add an option to export data directly to Excel? We are losing money every minute. This is unacceptable.,feature_request,medium,negative
+439,dark mode. It would be great if you added a dark mode option. Need help immediately. This is unacceptable.,feature_request,high,negative
+440,"delete account. Please delete my account and all associated personal data. Just a small question. Thanks, I love the product!",account,low,positive
+441,payment failed. The payment on my credit card failed but the money left my account. No rush on this. Really appreciate your help.,billing,low,positive
+442,slow performance. Data sync between my phone and desktop has stopped working. Please advise.,technical,high,neutral
+443,slow performance. Data sync between my phone and desktop has stopped working. This is urgent! This is unacceptable.,technical,high,negative
+444,delete account. How do I add a new team member to our workspace? Let me know.,account,medium,neutral
+445,"invoice missing. My invoice for last month never arrived, can you resend it? We are losing money every minute. Terrible experience, I'm furious.",billing,high,negative
+446,cannot log in. Data sync between my phone and desktop has stopped working. Let me know.,technical,medium,neutral
+447,"integration idea. It would be great if you added a dark mode option. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+448,reset 2FA. I need to update my company name and billing profile details. Please advise.,account,high,neutral
+449,"change email. I would like to change the email address on my account. Whenever you get a chance. Great service so far, thank you.",account,medium,positive
+450,payment failed. Please cancel my renewal and refund the annual charge. Production is down for all our users. This is unacceptable.,billing,medium,negative
+451,update profile. I need to update my company name and billing profile details.,account,high,neutral
+452,invoice missing. I was charged twice for my subscription this month and need a refund.,billing,medium,neutral
+453,update profile. I lost my phone and need to reset two factor authentication. Production is down for all our users. This is unacceptable.,account,high,negative
+454,double charged. I was charged twice for my subscription this month and need a refund.  Really appreciate your help.,billing,medium,positive
+455,slow performance. The application crashes every time I open the dashboard. Need help immediately. This is unacceptable.,technical,high,negative
+456,change email. I would like to change the email address on my account.,account,medium,neutral
+457,error 500. The system is extremely slow and pages take a minute to load. Please advise.,technical,high,neutral
+458,"add team member. I would like to change the email address on my account. Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+459,"invoice missing. Please cancel my renewal and refund the annual charge.  Great service so far, thank you.",billing,low,positive
+460,"wrong amount billed. My invoice for last month never arrived, can you resend it? Just a small question. Thanks, I love the product!",billing,low,positive
+461,"change email. Please delete my account and all associated personal data. This is urgent! Terrible experience, I'm furious.",account,high,negative
+462,invoice missing. I was billed the wrong amount after upgrading my plan. This is urgent! This is unacceptable.,billing,high,negative
+463,"sync not working. I cannot log in, it keeps saying my password is invalid. This is urgent! Terrible experience, I'm furious.",technical,high,negative
+464,reset 2FA. How do I add a new team member to our workspace? We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+465,"wrong amount billed. I was charged twice for my subscription this month and need a refund. No rush on this. Thanks, I love the product!",billing,low,positive
+466,api access. We would love public API access to automate our workflows. Need help immediately. I am extremely frustrated with your service.,feature_request,high,negative
+467,"wrong amount billed. The payment on my credit card failed but the money left my account. No rush on this. Great service so far, thank you.",billing,low,positive
+468,"slow performance. I cannot log in, it keeps saying my password is invalid.  Thanks, I love the product!",technical,low,positive
+469,error 500. The application crashes every time I open the dashboard. Need help immediately. This is unacceptable.,technical,high,negative
+470,"change email. Please delete my account and all associated personal data. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+471,"app crashes. The application crashes every time I open the dashboard. No rush on this. Thanks, I love the product!",technical,low,positive
+472,error 500. Data sync between my phone and desktop has stopped working.,technical,high,neutral
+473,refund request. Please cancel my renewal and refund the annual charge. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+474,"invoice missing. I was billed the wrong amount after upgrading my plan. Whenever you get a chance. Thanks, I love the product!",billing,low,positive
+475,"delete account. Please delete my account and all associated personal data. Just a small question. Thanks, I love the product!",account,low,positive
+476,payment failed. I was charged twice for my subscription this month and need a refund. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+477,add team member. I need to update my company name and billing profile details. Please advise.,account,high,neutral
+478,add team member. I lost my phone and need to reset two factor authentication. Please advise.,account,medium,neutral
+479,double charged. The payment on my credit card failed but the money left my account. We are losing money every minute. This is unacceptable.,billing,high,negative
+480,"export to excel. It would be great if you added a dark mode option. Just a small question. Great service so far, thank you.",feature_request,low,positive
+481,dark mode. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+482,refund request. I was charged twice for my subscription this month and need a refund. Please advise.,billing,medium,neutral
+483,app crashes. The system is extremely slow and pages take a minute to load. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+484,change email. Please delete my account and all associated personal data. Please advise.,account,medium,neutral
+485,dark mode. It would be great if you added a dark mode option. Please advise.,feature_request,low,neutral
+486,"dark mode. Is a native mobile app on your roadmap? Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+487,mobile app. Can you add an option to export data directly to Excel? Production is down for all our users. This is unacceptable.,feature_request,high,negative
+488,invoice missing. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+489,dark mode. We would love public API access to automate our workflows. Let me know.,feature_request,medium,neutral
+490,"integration idea. Can you add an option to export data directly to Excel? Production is down for all our users. Terrible experience, I'm furious.",feature_request,high,negative
+491,payment failed. Please cancel my renewal and refund the annual charge.,billing,low,neutral
+492,"dark mode. We would love public API access to automate our workflows. Just a small question. Great service so far, thank you.",feature_request,low,positive
+493,sync not working. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,high,negative
+494,change email. Please delete my account and all associated personal data. Please advise.,account,medium,neutral
+495,sync not working. I get an error 500 whenever I try to export a report. This is urgent! This is unacceptable.,technical,high,negative
+496,"slow performance. The application crashes every time I open the dashboard. We are losing money every minute. Terrible experience, I'm furious.",technical,high,negative
+497,reset 2FA. Please delete my account and all associated personal data.,account,medium,neutral
+498,"dark mode. Can you add an option to export data directly to Excel? Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+499,"slow performance. I cannot log in, it keeps saying my password is invalid. Need help immediately. This is unacceptable.",technical,high,negative
+500,"cannot log in. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+501,app crashes. I get an error 500 whenever I try to export a report.,technical,low,neutral
+502,"export to excel. Is a native mobile app on your roadmap? Just a small question. Great service so far, thank you.",feature_request,low,positive
+503,export to excel. Please consider integrating with Slack for notifications. Please advise.,feature_request,low,neutral
+504,"app crashes. The system is extremely slow and pages take a minute to load. Just a small question. Thanks, I love the product!",technical,low,positive
+505,export to excel. Please consider integrating with Slack for notifications.,feature_request,medium,neutral
+506,reset 2FA. I would like to change the email address on my account.,account,medium,neutral
+507,api access. Can you add an option to export data directly to Excel? This is urgent! This is unacceptable.,feature_request,high,negative
+508,payment failed. I was charged twice for my subscription this month and need a refund.,billing,low,neutral
+509,change email. I would like to change the email address on my account. This is urgent! I am extremely frustrated with your service.,account,high,negative
+510,"payment failed. I was billed the wrong amount after upgrading my plan.  Thanks, I love the product!",billing,medium,positive
+511,"reset 2FA. Please delete my account and all associated personal data. No rush on this. Great service so far, thank you.",account,low,positive
+512,"error 500. The application crashes every time I open the dashboard. No rush on this. Great service so far, thank you.",technical,low,positive
+513,"wrong amount billed. I was charged twice for my subscription this month and need a refund.  Thanks, I love the product!",billing,low,positive
+514,delete account. I lost my phone and need to reset two factor authentication.  Really appreciate your help.,account,low,positive
+515,export to excel. Is a native mobile app on your roadmap? This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+516,change email. I would like to change the email address on my account. Let me know.,account,medium,neutral
+517,"dark mode. Is a native mobile app on your roadmap?  Thanks, I love the product!",feature_request,low,positive
+518,"double charged. My invoice for last month never arrived, can you resend it? Need help immediately. This is unacceptable.",billing,high,negative
+519,add team member. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+520,"mobile app. Can you add an option to export data directly to Excel? Just a small question. Thanks, I love the product!",feature_request,low,positive
+521,update profile. I would like to change the email address on my account. Let me know.,account,medium,neutral
+522,"reset 2FA. I would like to change the email address on my account. Just a small question. Thanks, I love the product!",account,low,positive
+523,app crashes. I get an error 500 whenever I try to export a report.,technical,medium,neutral
+524,integration idea. It would be great if you added a dark mode option.,feature_request,medium,neutral
+525,integration idea. Can you add an option to export data directly to Excel? Let me know.,feature_request,high,neutral
+526,"integration idea. Please consider integrating with Slack for notifications. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+527,"cannot log in. I cannot log in, it keeps saying my password is invalid. Need help immediately. This is unacceptable.",technical,medium,negative
+528,"sync not working. I cannot log in, it keeps saying my password is invalid. Need help immediately. This is unacceptable.",technical,medium,negative
+529,app crashes. The application crashes every time I open the dashboard. Let me know.,technical,low,neutral
+530,"dark mode. Please consider integrating with Slack for notifications. Just a small question. Great service so far, thank you.",feature_request,low,positive
+531,integration idea. It would be great if you added a dark mode option. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+532,"invoice missing. I was billed the wrong amount after upgrading my plan. No rush on this. Great service so far, thank you.",billing,medium,positive
+533,change email. Please delete my account and all associated personal data.  Really appreciate your help.,account,low,positive
+534,"add team member. Please delete my account and all associated personal data.  Thanks, I love the product!",account,low,positive
+535,refund request. The payment on my credit card failed but the money left my account. Let me know.,billing,low,neutral
+536,delete account. Please delete my account and all associated personal data.  Really appreciate your help.,account,low,positive
+537,add team member. I need to update my company name and billing profile details. Let me know.,account,low,neutral
+538,wrong amount billed. The payment on my credit card failed but the money left my account. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+539,"wrong amount billed. I was billed the wrong amount after upgrading my plan. Whenever you get a chance. Thanks, I love the product!",billing,low,positive
+540,"cannot log in. I cannot log in, it keeps saying my password is invalid.",technical,medium,neutral
+541,sync not working. The application crashes every time I open the dashboard. Please advise.,technical,medium,neutral
+542,update profile. I lost my phone and need to reset two factor authentication. Let me know.,account,low,neutral
+543,export to excel. We would love public API access to automate our workflows. Please advise.,feature_request,medium,neutral
+544,"api access. We would love public API access to automate our workflows. Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+545,error 500. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+546,export to excel. We would love public API access to automate our workflows. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+547,"export to excel. Please consider integrating with Slack for notifications. No rush on this. Great service so far, thank you.",feature_request,medium,positive
+548,"invoice missing. I was billed the wrong amount after upgrading my plan. We are losing money every minute. Terrible experience, I'm furious.",billing,medium,negative
+549,export to excel. Is a native mobile app on your roadmap? Let me know.,feature_request,low,neutral
+550,reset 2FA. I would like to change the email address on my account.,account,high,neutral
+551,wrong amount billed. The payment on my credit card failed but the money left my account. Just a small question. Really appreciate your help.,billing,low,positive
+552,add team member. How do I add a new team member to our workspace? Let me know.,account,medium,neutral
+553,delete account. Please delete my account and all associated personal data. Let me know.,account,low,neutral
+554,"error 500. I cannot log in, it keeps saying my password is invalid.",technical,high,neutral
+555,payment failed. I was billed the wrong amount after upgrading my plan. Let me know.,billing,low,neutral
+556,api access. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+557,integration idea. We would love public API access to automate our workflows.,feature_request,low,neutral
+558,error 500. The application crashes every time I open the dashboard.,technical,medium,neutral
+559,"export to excel. We would love public API access to automate our workflows. We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+560,"payment failed. The payment on my credit card failed but the money left my account. Production is down for all our users. Terrible experience, I'm furious.",billing,high,negative
+561,update profile. I would like to change the email address on my account. We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+562,payment failed. Please cancel my renewal and refund the annual charge. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+563,"add team member. I need to update my company name and billing profile details. Whenever you get a chance. Thanks, I love the product!",account,medium,positive
+564,export to excel. We would love public API access to automate our workflows. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+565,double charged. Please cancel my renewal and refund the annual charge. We are losing money every minute. This is unacceptable.,billing,high,negative
+566,"sync not working. Data sync between my phone and desktop has stopped working. No rush on this. Thanks, I love the product!",technical,low,positive
+567,dark mode. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+568,"slow performance. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,low,neutral
+569,double charged. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+570,"delete account. I would like to change the email address on my account. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+571,wrong amount billed. Please cancel my renewal and refund the annual charge. We are losing money every minute. I am extremely frustrated with your service.,billing,high,negative
+572,"update profile. How do I add a new team member to our workspace? Whenever you get a chance. Great service so far, thank you.",account,medium,positive
+573,"cannot log in. I cannot log in, it keeps saying my password is invalid. Need help immediately. This is unacceptable.",technical,high,negative
+574,"refund request. I was billed the wrong amount after upgrading my plan. Whenever you get a chance. Thanks, I love the product!",billing,low,positive
+575,reset 2FA. I would like to change the email address on my account.,account,medium,neutral
+576,refund request. I was billed the wrong amount after upgrading my plan. Please advise.,billing,medium,neutral
+577,"export to excel. It would be great if you added a dark mode option. Just a small question. Great service so far, thank you.",feature_request,low,positive
+578,reset 2FA. I lost my phone and need to reset two factor authentication. No rush on this. Really appreciate your help.,account,low,positive
+579,app crashes. I get an error 500 whenever I try to export a report. No rush on this. Really appreciate your help.,technical,low,positive
+580,"wrong amount billed. My invoice for last month never arrived, can you resend it? Let me know.",billing,medium,neutral
+581,update profile. How do I add a new team member to our workspace? Please advise.,account,low,neutral
+582,sync not working. I get an error 500 whenever I try to export a report. Need help immediately. This is unacceptable.,technical,high,negative
+583,"sync not working. I cannot log in, it keeps saying my password is invalid. This is urgent! This is unacceptable.",technical,high,negative
+584,"invoice missing. My invoice for last month never arrived, can you resend it? Please advise.",billing,medium,neutral
+585,mobile app. It would be great if you added a dark mode option. Let me know.,feature_request,low,neutral
+586,invoice missing. The payment on my credit card failed but the money left my account. Please advise.,billing,low,neutral
+587,dark mode. Can you add an option to export data directly to Excel? Please advise.,feature_request,medium,neutral
+588,app crashes. I get an error 500 whenever I try to export a report.  Really appreciate your help.,technical,low,positive
+589,add team member. I need to update my company name and billing profile details. Need help immediately. I am extremely frustrated with your service.,account,medium,negative
+590,dark mode. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+591,payment failed. Please cancel my renewal and refund the annual charge. Please advise.,billing,medium,neutral
+592,export to excel. Please consider integrating with Slack for notifications.,feature_request,high,neutral
+593,export to excel. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+594,api access. We would love public API access to automate our workflows. Need help immediately. I am extremely frustrated with your service.,feature_request,high,negative
+595,invoice missing. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+596,"payment failed. My invoice for last month never arrived, can you resend it? Whenever you get a chance. Great service so far, thank you.",billing,low,positive
+597,"payment failed. My invoice for last month never arrived, can you resend it? Production is down for all our users. Terrible experience, I'm furious.",billing,high,negative
+598,invoice missing. The payment on my credit card failed but the money left my account. Let me know.,billing,medium,neutral
+599,"refund request. I was billed the wrong amount after upgrading my plan.  Great service so far, thank you.",billing,low,positive
+600,mobile app. Is a native mobile app on your roadmap? Let me know.,feature_request,medium,neutral
+601,"change email. I need to update my company name and billing profile details. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+602,integration idea. We would love public API access to automate our workflows. This is urgent! This is unacceptable.,feature_request,high,negative
+603,error 500. The application crashes every time I open the dashboard. Let me know.,technical,low,neutral
+604,error 500. Data sync between my phone and desktop has stopped working. Let me know.,technical,high,neutral
+605,invoice missing. Please cancel my renewal and refund the annual charge. Production is down for all our users. This is unacceptable.,billing,high,negative
+606,update profile. Please delete my account and all associated personal data. Please advise.,account,medium,neutral
+607,mobile app. Can you add an option to export data directly to Excel? Production is down for all our users. This is unacceptable.,feature_request,high,negative
+608,dark mode. Is a native mobile app on your roadmap? Please advise.,feature_request,low,neutral
+609,payment failed. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+610,slow performance. Data sync between my phone and desktop has stopped working. Please advise.,technical,medium,neutral
+611,export to excel. It would be great if you added a dark mode option. Please advise.,feature_request,medium,neutral
+612,integration idea. Is a native mobile app on your roadmap?,feature_request,low,neutral
+613,api access. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+614,delete account. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+615,reset 2FA. Please delete my account and all associated personal data.,account,low,neutral
+616,"cannot log in. I cannot log in, it keeps saying my password is invalid. We are losing money every minute. Terrible experience, I'm furious.",technical,high,negative
+617,reset 2FA. I lost my phone and need to reset two factor authentication. Let me know.,account,high,neutral
+618,mobile app. It would be great if you added a dark mode option.,feature_request,low,neutral
+619,double charged. The payment on my credit card failed but the money left my account. Production is down for all our users. This is unacceptable.,billing,high,negative
+620,cannot log in. The application crashes every time I open the dashboard.,technical,low,neutral
+621,change email. I lost my phone and need to reset two factor authentication. This is urgent! I am extremely frustrated with your service.,account,high,negative
+622,cannot log in. The system is extremely slow and pages take a minute to load.,technical,high,neutral
+623,update profile. I need to update my company name and billing profile details. Please advise.,account,high,neutral
+624,add team member. Please delete my account and all associated personal data. Please advise.,account,medium,neutral
+625,integration idea. Please consider integrating with Slack for notifications.,feature_request,low,neutral
+626,"sync not working. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,low,neutral
+627,"payment failed. I was charged twice for my subscription this month and need a refund. Production is down for all our users. Terrible experience, I'm furious.",billing,high,negative
+628,api access. It would be great if you added a dark mode option. We are losing money every minute. This is unacceptable.,feature_request,high,negative
+629,"add team member. I lost my phone and need to reset two factor authentication. Whenever you get a chance. Thanks, I love the product!",account,low,positive
+630,payment failed. Please cancel my renewal and refund the annual charge.,billing,low,neutral
+631,"delete account. I lost my phone and need to reset two factor authentication. We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+632,wrong amount billed. Please cancel my renewal and refund the annual charge. Please advise.,billing,high,neutral
+633,api access. We would love public API access to automate our workflows. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+634,"change email. I would like to change the email address on my account. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+635,"add team member. I need to update my company name and billing profile details. Whenever you get a chance. Thanks, I love the product!",account,low,positive
+636,"invoice missing. Please cancel my renewal and refund the annual charge. Just a small question. Thanks, I love the product!",billing,medium,positive
+637,integration idea. It would be great if you added a dark mode option. Just a small question. Really appreciate your help.,feature_request,low,positive
+638,"double charged. I was billed the wrong amount after upgrading my plan. This is urgent! Terrible experience, I'm furious.",billing,high,negative
+639,"refund request. My invoice for last month never arrived, can you resend it? Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+640,"refund request. My invoice for last month never arrived, can you resend it? Just a small question. Thanks, I love the product!",billing,low,positive
+641,"update profile. I need to update my company name and billing profile details. Whenever you get a chance. Great service so far, thank you.",account,low,positive
+642,dark mode. Please consider integrating with Slack for notifications.  Really appreciate your help.,feature_request,low,positive
+643,refund request. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+644,"payment failed. I was billed the wrong amount after upgrading my plan. We are losing money every minute. Terrible experience, I'm furious.",billing,high,negative
+645,export to excel. Please consider integrating with Slack for notifications. Please advise.,feature_request,high,neutral
+646,"cannot log in. I get an error 500 whenever I try to export a report. Need help immediately. Terrible experience, I'm furious.",technical,high,negative
+647,change email. I would like to change the email address on my account. Please advise.,account,medium,neutral
+648,refund request. The payment on my credit card failed but the money left my account.  Really appreciate your help.,billing,low,positive
+649,cannot log in. Data sync between my phone and desktop has stopped working.,technical,low,neutral
+650,"cannot log in. The application crashes every time I open the dashboard. Production is down for all our users. Terrible experience, I'm furious.",technical,high,negative
+651,slow performance. Data sync between my phone and desktop has stopped working.,technical,medium,neutral
+652,wrong amount billed. I was billed the wrong amount after upgrading my plan. This is urgent! I am extremely frustrated with your service.,billing,high,negative
+653,"change email. Please delete my account and all associated personal data. Whenever you get a chance. Thanks, I love the product!",account,low,positive
+654,reset 2FA. Please delete my account and all associated personal data. Just a small question. Really appreciate your help.,account,low,positive
+655,change email. How do I add a new team member to our workspace? Let me know.,account,medium,neutral
+656,error 500. I get an error 500 whenever I try to export a report.,technical,high,neutral
+657,sync not working. Data sync between my phone and desktop has stopped working. Let me know.,technical,high,neutral
+658,delete account. I lost my phone and need to reset two factor authentication. Let me know.,account,medium,neutral
+659,invoice missing. I was charged twice for my subscription this month and need a refund. Please advise.,billing,medium,neutral
+660,wrong amount billed. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+661,integration idea. We would love public API access to automate our workflows. Please advise.,feature_request,medium,neutral
+662,mobile app. Can you add an option to export data directly to Excel? Please advise.,feature_request,low,neutral
+663,change email. Please delete my account and all associated personal data. This is urgent! I am extremely frustrated with your service.,account,high,negative
+664,"cannot log in. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,high,neutral
+665,"app crashes. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,low,neutral
+666,export to excel. Please consider integrating with Slack for notifications. We are losing money every minute. I am extremely frustrated with your service.,feature_request,high,negative
+667,"add team member. I would like to change the email address on my account.  Thanks, I love the product!",account,low,positive
+668,update profile. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+669,delete account. I lost my phone and need to reset two factor authentication. No rush on this. Really appreciate your help.,account,low,positive
+670,"integration idea. It would be great if you added a dark mode option. Just a small question. Great service so far, thank you.",feature_request,low,positive
+671,"error 500. I cannot log in, it keeps saying my password is invalid. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+672,"app crashes. I cannot log in, it keeps saying my password is invalid. We are losing money every minute. Terrible experience, I'm furious.",technical,high,negative
+673,mobile app. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+674,"dark mode. Can you add an option to export data directly to Excel? Production is down for all our users. Terrible experience, I'm furious.",feature_request,high,negative
+675,refund request. Please cancel my renewal and refund the annual charge. Production is down for all our users. This is unacceptable.,billing,high,negative
+676,sync not working. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,high,negative
+677,"refund request. My invoice for last month never arrived, can you resend it?",billing,low,neutral
+678,export to excel. Can you add an option to export data directly to Excel? Let me know.,feature_request,high,neutral
+679,integration idea. Please consider integrating with Slack for notifications.,feature_request,medium,neutral
+680,change email. Please delete my account and all associated personal data. We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+681,"integration idea. Is a native mobile app on your roadmap? No rush on this. Thanks, I love the product!",feature_request,low,positive
+682,slow performance. The system is extremely slow and pages take a minute to load. Please advise.,technical,high,neutral
+683,refund request. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+684,sync not working. The system is extremely slow and pages take a minute to load.,technical,medium,neutral
+685,export to excel. Is a native mobile app on your roadmap? No rush on this. Really appreciate your help.,feature_request,low,positive
+686,"mobile app. Can you add an option to export data directly to Excel? No rush on this. Great service so far, thank you.",feature_request,low,positive
+687,refund request. Please cancel my renewal and refund the annual charge. Need help immediately. I am extremely frustrated with your service.,billing,high,negative
+688,invoice missing. I was billed the wrong amount after upgrading my plan.  Really appreciate your help.,billing,low,positive
+689,"add team member. I lost my phone and need to reset two factor authentication. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+690,export to excel. Is a native mobile app on your roadmap? Just a small question. Really appreciate your help.,feature_request,low,positive
+691,integration idea. We would love public API access to automate our workflows. Need help immediately. I am extremely frustrated with your service.,feature_request,medium,negative
+692,export to excel. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+693,slow performance. The application crashes every time I open the dashboard. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+694,"sync not working. The system is extremely slow and pages take a minute to load. No rush on this. Thanks, I love the product!",technical,low,positive
+695,integration idea. It would be great if you added a dark mode option. We are losing money every minute. This is unacceptable.,feature_request,high,negative
+696,integration idea. It would be great if you added a dark mode option. Let me know.,feature_request,low,neutral
+697,cannot log in. The system is extremely slow and pages take a minute to load. Let me know.,technical,medium,neutral
+698,"change email. How do I add a new team member to our workspace? Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+699,error 500. Data sync between my phone and desktop has stopped working. Please advise.,technical,medium,neutral
+700,reset 2FA. I would like to change the email address on my account. Let me know.,account,medium,neutral
+701,wrong amount billed. Please cancel my renewal and refund the annual charge.,billing,low,neutral
+702,"delete account. I need to update my company name and billing profile details. Just a small question. Thanks, I love the product!",account,low,positive
+703,"dark mode. Please consider integrating with Slack for notifications. Just a small question. Thanks, I love the product!",feature_request,low,positive
+704,"invoice missing. Please cancel my renewal and refund the annual charge. Just a small question. Thanks, I love the product!",billing,low,positive
+705,delete account. How do I add a new team member to our workspace? Let me know.,account,high,neutral
+706,mobile app. It would be great if you added a dark mode option.,feature_request,medium,neutral
+707,"add team member. I need to update my company name and billing profile details. Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+708,delete account. How do I add a new team member to our workspace? No rush on this. Really appreciate your help.,account,low,positive
+709,"double charged. I was billed the wrong amount after upgrading my plan. Just a small question. Thanks, I love the product!",billing,low,positive
+710,"delete account. I need to update my company name and billing profile details. Just a small question. Thanks, I love the product!",account,medium,positive
+711,"cannot log in. I cannot log in, it keeps saying my password is invalid. Production is down for all our users. I am extremely frustrated with your service.",technical,high,negative
+712,update profile. I lost my phone and need to reset two factor authentication. This is urgent! This is unacceptable.,account,medium,negative
+713,payment failed. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+714,"reset 2FA. How do I add a new team member to our workspace? Just a small question. Great service so far, thank you.",account,low,positive
+715,mobile app. Is a native mobile app on your roadmap? Production is down for all our users. This is unacceptable.,feature_request,high,negative
+716,payment failed. I was charged twice for my subscription this month and need a refund.  Really appreciate your help.,billing,low,positive
+717,"mobile app. Please consider integrating with Slack for notifications. No rush on this. Thanks, I love the product!",feature_request,low,positive
+718,"double charged. The payment on my credit card failed but the money left my account. Just a small question. Thanks, I love the product!",billing,low,positive
+719,export to excel. Is a native mobile app on your roadmap? Let me know.,feature_request,low,neutral
+720,api access. Is a native mobile app on your roadmap? We are losing money every minute. I am extremely frustrated with your service.,feature_request,high,negative
+721,"cannot log in. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+722,export to excel. Is a native mobile app on your roadmap? Please advise.,feature_request,medium,neutral
+723,wrong amount billed. Please cancel my renewal and refund the annual charge. Need help immediately. This is unacceptable.,billing,medium,negative
+724,reset 2FA. I lost my phone and need to reset two factor authentication. Let me know.,account,low,neutral
+725,"invoice missing. I was billed the wrong amount after upgrading my plan. Whenever you get a chance. Thanks, I love the product!",billing,low,positive
+726,"wrong amount billed. Please cancel my renewal and refund the annual charge. Just a small question. Great service so far, thank you.",billing,low,positive
+727,"reset 2FA. Please delete my account and all associated personal data.  Thanks, I love the product!",account,low,positive
+728,error 500. The system is extremely slow and pages take a minute to load. Let me know.,technical,low,neutral
+729,mobile app. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+730,"add team member. I need to update my company name and billing profile details. Whenever you get a chance. Thanks, I love the product!",account,low,positive
+731,export to excel. We would love public API access to automate our workflows. Please advise.,feature_request,medium,neutral
+732,sync not working. I get an error 500 whenever I try to export a report. Just a small question. Really appreciate your help.,technical,low,positive
+733,mobile app. Can you add an option to export data directly to Excel? Let me know.,feature_request,high,neutral
+734,error 500. The application crashes every time I open the dashboard. Please advise.,technical,medium,neutral
+735,sync not working. The system is extremely slow and pages take a minute to load. This is urgent! This is unacceptable.,technical,high,negative
+736,"refund request. I was charged twice for my subscription this month and need a refund. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+737,add team member. Please delete my account and all associated personal data. Please advise.,account,high,neutral
+738,cannot log in. The system is extremely slow and pages take a minute to load. Let me know.,technical,medium,neutral
+739,sync not working. The system is extremely slow and pages take a minute to load. We are losing money every minute. I am extremely frustrated with your service.,technical,high,negative
+740,reset 2FA. I lost my phone and need to reset two factor authentication. Whenever you get a chance. Really appreciate your help.,account,low,positive
+741,integration idea. Please consider integrating with Slack for notifications.,feature_request,high,neutral
+742,change email. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+743,"change email. I lost my phone and need to reset two factor authentication. Just a small question. Thanks, I love the product!",account,low,positive
+744,sync not working. Data sync between my phone and desktop has stopped working.  Really appreciate your help.,technical,low,positive
+745,change email. I lost my phone and need to reset two factor authentication. Need help immediately. I am extremely frustrated with your service.,account,high,negative
+746,update profile. I need to update my company name and billing profile details. Need help immediately. I am extremely frustrated with your service.,account,high,negative
+747,"slow performance. I get an error 500 whenever I try to export a report. Need help immediately. Terrible experience, I'm furious.",technical,high,negative
+748,update profile. Please delete my account and all associated personal data.,account,low,neutral
+749,wrong amount billed. I was billed the wrong amount after upgrading my plan. We are losing money every minute. This is unacceptable.,billing,high,negative
+750,add team member. I would like to change the email address on my account. Let me know.,account,medium,neutral
+751,error 500. I get an error 500 whenever I try to export a report. This is urgent! This is unacceptable.,technical,medium,negative
+752,cannot log in. The application crashes every time I open the dashboard.,technical,medium,neutral
+753,sync not working. I get an error 500 whenever I try to export a report. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+754,dark mode. Can you add an option to export data directly to Excel? Please advise.,feature_request,low,neutral
+755,"double charged. My invoice for last month never arrived, can you resend it? Need help immediately. This is unacceptable.",billing,high,negative
+756,delete account. I need to update my company name and billing profile details. Please advise.,account,medium,neutral
+757,dark mode. Please consider integrating with Slack for notifications. This is urgent! This is unacceptable.,feature_request,high,negative
+758,"app crashes. The system is extremely slow and pages take a minute to load. Just a small question. Great service so far, thank you.",technical,low,positive
+759,"refund request. My invoice for last month never arrived, can you resend it? We are losing money every minute. This is unacceptable.",billing,high,negative
+760,invoice missing. Please cancel my renewal and refund the annual charge. Need help immediately. I am extremely frustrated with your service.,billing,high,negative
+761,"wrong amount billed. I was billed the wrong amount after upgrading my plan. Whenever you get a chance. Thanks, I love the product!",billing,medium,positive
+762,"app crashes. The system is extremely slow and pages take a minute to load. No rush on this. Thanks, I love the product!",technical,low,positive
+763,change email. How do I add a new team member to our workspace?,account,medium,neutral
+764,"sync not working. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,medium,neutral
+765,update profile. Please delete my account and all associated personal data.,account,low,neutral
+766,invoice missing. I was charged twice for my subscription this month and need a refund. Let me know.,billing,medium,neutral
+767,integration idea. Is a native mobile app on your roadmap?,feature_request,low,neutral
+768,"error 500. The system is extremely slow and pages take a minute to load. Just a small question. Great service so far, thank you.",technical,low,positive
+769,error 500. The system is extremely slow and pages take a minute to load. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+770,change email. I lost my phone and need to reset two factor authentication.  Really appreciate your help.,account,low,positive
+771,change email. I lost my phone and need to reset two factor authentication. Please advise.,account,low,neutral
+772,"api access. We would love public API access to automate our workflows. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+773,integration idea. It would be great if you added a dark mode option. Please advise.,feature_request,medium,neutral
+774,"refund request. My invoice for last month never arrived, can you resend it? Please advise.",billing,medium,neutral
+775,"payment failed. I was billed the wrong amount after upgrading my plan. No rush on this. Thanks, I love the product!",billing,low,positive
+776,"change email. Please delete my account and all associated personal data. Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+777,dark mode. We would love public API access to automate our workflows. Please advise.,feature_request,high,neutral
+778,integration idea. We would love public API access to automate our workflows.,feature_request,medium,neutral
+779,double charged. Please cancel my renewal and refund the annual charge. Let me know.,billing,medium,neutral
+780,"double charged. Please cancel my renewal and refund the annual charge. Production is down for all our users. Terrible experience, I'm furious.",billing,high,negative
+781,sync not working. The application crashes every time I open the dashboard. Whenever you get a chance. Really appreciate your help.,technical,low,positive
+782,change email. Please delete my account and all associated personal data.,account,high,neutral
+783,slow performance. Data sync between my phone and desktop has stopped working. Just a small question. Really appreciate your help.,technical,low,positive
+784,add team member. I need to update my company name and billing profile details.,account,low,neutral
+785,integration idea. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+786,"sync not working. Data sync between my phone and desktop has stopped working. Just a small question. Great service so far, thank you.",technical,medium,positive
+787,"wrong amount billed. My invoice for last month never arrived, can you resend it? Let me know.",billing,medium,neutral
+788,change email. How do I add a new team member to our workspace? Production is down for all our users. This is unacceptable.,account,high,negative
+789,error 500. I get an error 500 whenever I try to export a report. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+790,"slow performance. I cannot log in, it keeps saying my password is invalid. We are losing money every minute. This is unacceptable.",technical,high,negative
+791,payment failed. Please cancel my renewal and refund the annual charge. Let me know.,billing,medium,neutral
+792,"wrong amount billed. I was billed the wrong amount after upgrading my plan. Just a small question. Thanks, I love the product!",billing,low,positive
+793,payment failed. I was billed the wrong amount after upgrading my plan. Let me know.,billing,low,neutral
+794,payment failed. I was charged twice for my subscription this month and need a refund. Please advise.,billing,medium,neutral
+795,add team member. I lost my phone and need to reset two factor authentication. Just a small question. Really appreciate your help.,account,low,positive
+796,slow performance. The system is extremely slow and pages take a minute to load. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+797,invoice missing. I was charged twice for my subscription this month and need a refund. We are losing money every minute. I am extremely frustrated with your service.,billing,high,negative
+798,dark mode. Is a native mobile app on your roadmap? No rush on this. Really appreciate your help.,feature_request,low,positive
+799,mobile app. Please consider integrating with Slack for notifications. Please advise.,feature_request,medium,neutral
+800,"slow performance. I cannot log in, it keeps saying my password is invalid. Whenever you get a chance. Really appreciate your help.",technical,low,positive
+801,slow performance. The application crashes every time I open the dashboard. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+802,"invoice missing. My invoice for last month never arrived, can you resend it? Let me know.",billing,low,neutral
+803,"add team member. I lost my phone and need to reset two factor authentication. No rush on this. Great service so far, thank you.",account,low,positive
+804,export to excel. Can you add an option to export data directly to Excel? Let me know.,feature_request,medium,neutral
+805,delete account. I lost my phone and need to reset two factor authentication. This is urgent! This is unacceptable.,account,high,negative
+806,error 500. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+807,"reset 2FA. Please delete my account and all associated personal data. No rush on this. Great service so far, thank you.",account,low,positive
+808,cannot log in. The application crashes every time I open the dashboard. Just a small question. Really appreciate your help.,technical,low,positive
+809,"api access. Can you add an option to export data directly to Excel? No rush on this. Great service so far, thank you.",feature_request,low,positive
+810,add team member. How do I add a new team member to our workspace? This is urgent! This is unacceptable.,account,high,negative
+811,wrong amount billed. I was charged twice for my subscription this month and need a refund. Need help immediately. This is unacceptable.,billing,medium,negative
+812,"update profile. I lost my phone and need to reset two factor authentication. No rush on this. Thanks, I love the product!",account,low,positive
+813,double charged. I was charged twice for my subscription this month and need a refund. We are losing money every minute. I am extremely frustrated with your service.,billing,high,negative
+814,delete account. I lost my phone and need to reset two factor authentication. Let me know.,account,low,neutral
+815,update profile. I would like to change the email address on my account.,account,low,neutral
+816,change email. I need to update my company name and billing profile details. We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+817,"slow performance. I get an error 500 whenever I try to export a report. Whenever you get a chance. Great service so far, thank you.",technical,medium,positive
+818,integration idea. Can you add an option to export data directly to Excel? Whenever you get a chance. Really appreciate your help.,feature_request,low,positive
+819,"cannot log in. The system is extremely slow and pages take a minute to load. Whenever you get a chance. Great service so far, thank you.",technical,medium,positive
+820,"cannot log in. The application crashes every time I open the dashboard. No rush on this. Thanks, I love the product!",technical,low,positive
+821,add team member. I need to update my company name and billing profile details. Let me know.,account,high,neutral
+822,change email. I lost my phone and need to reset two factor authentication. Production is down for all our users. This is unacceptable.,account,high,negative
+823,reset 2FA. Please delete my account and all associated personal data.,account,medium,neutral
+824,"sync not working. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,medium,neutral
+825,mobile app. Is a native mobile app on your roadmap? Let me know.,feature_request,medium,neutral
+826,dark mode. We would love public API access to automate our workflows. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+827,mobile app. Please consider integrating with Slack for notifications. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+828,mobile app. Is a native mobile app on your roadmap? Let me know.,feature_request,medium,neutral
+829,payment failed. Please cancel my renewal and refund the annual charge. Let me know.,billing,low,neutral
+830,"refund request. My invoice for last month never arrived, can you resend it?  Great service so far, thank you.",billing,low,positive
+831,integration idea. It would be great if you added a dark mode option. Please advise.,feature_request,high,neutral
+832,error 500. Data sync between my phone and desktop has stopped working. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+833,cannot log in. Data sync between my phone and desktop has stopped working. No rush on this. Really appreciate your help.,technical,low,positive
+834,integration idea. Can you add an option to export data directly to Excel? This is urgent! This is unacceptable.,feature_request,high,negative
+835,"integration idea. Can you add an option to export data directly to Excel?  Thanks, I love the product!",feature_request,low,positive
+836,"export to excel. It would be great if you added a dark mode option. We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+837,"wrong amount billed. I was billed the wrong amount after upgrading my plan. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+838,"error 500. The system is extremely slow and pages take a minute to load.  Thanks, I love the product!",technical,low,positive
+839,app crashes. Data sync between my phone and desktop has stopped working. Production is down for all our users. This is unacceptable.,technical,high,negative
+840,"change email. Please delete my account and all associated personal data.  Great service so far, thank you.",account,low,positive
+841,sync not working. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,high,negative
+842,double charged. Please cancel my renewal and refund the annual charge. Let me know.,billing,medium,neutral
+843,"dark mode. Can you add an option to export data directly to Excel?  Thanks, I love the product!",feature_request,low,positive
+844,change email. Please delete my account and all associated personal data.,account,medium,neutral
+845,app crashes. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,high,negative
+846,"delete account. Please delete my account and all associated personal data. No rush on this. Thanks, I love the product!",account,low,positive
+847,update profile. I lost my phone and need to reset two factor authentication.,account,medium,neutral
+848,add team member. How do I add a new team member to our workspace? Please advise.,account,low,neutral
+849,api access. Is a native mobile app on your roadmap? Let me know.,feature_request,medium,neutral
+850,"slow performance. I cannot log in, it keeps saying my password is invalid. We are losing money every minute. I am extremely frustrated with your service.",technical,high,negative
+851,sync not working. The system is extremely slow and pages take a minute to load. Please advise.,technical,medium,neutral
+852,"reset 2FA. How do I add a new team member to our workspace? Just a small question. Great service so far, thank you.",account,low,positive
+853,"sync not working. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,high,neutral
+854,app crashes. The application crashes every time I open the dashboard. Please advise.,technical,medium,neutral
+855,integration idea. Is a native mobile app on your roadmap? Please advise.,feature_request,medium,neutral
+856,"export to excel. It would be great if you added a dark mode option. We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+857,error 500. I get an error 500 whenever I try to export a report. Let me know.,technical,medium,neutral
+858,add team member. I need to update my company name and billing profile details. Please advise.,account,low,neutral
+859,invoice missing. I was billed the wrong amount after upgrading my plan. Please advise.,billing,low,neutral
+860,mobile app. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+861,mobile app. Is a native mobile app on your roadmap?,feature_request,low,neutral
+862,wrong amount billed. Please cancel my renewal and refund the annual charge. Let me know.,billing,low,neutral
+863,double charged. The payment on my credit card failed but the money left my account. We are losing money every minute. I am extremely frustrated with your service.,billing,high,negative
+864,double charged. Please cancel my renewal and refund the annual charge.  Really appreciate your help.,billing,low,positive
+865,api access. It would be great if you added a dark mode option. This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+866,"add team member. Please delete my account and all associated personal data.  Thanks, I love the product!",account,low,positive
+867,change email. I need to update my company name and billing profile details. We are losing money every minute. This is unacceptable.,account,high,negative
+868,double charged. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+869,api access. Can you add an option to export data directly to Excel?,feature_request,low,neutral
+870,double charged. I was charged twice for my subscription this month and need a refund.,billing,medium,neutral
+871,"dark mode. Please consider integrating with Slack for notifications. No rush on this. Thanks, I love the product!",feature_request,low,positive
+872,"invoice missing. I was charged twice for my subscription this month and need a refund. No rush on this. Thanks, I love the product!",billing,low,positive
+873,delete account. Please delete my account and all associated personal data. Please advise.,account,low,neutral
+874,add team member. Please delete my account and all associated personal data. We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+875,"app crashes. I cannot log in, it keeps saying my password is invalid. This is urgent! Terrible experience, I'm furious.",technical,high,negative
+876,"add team member. I lost my phone and need to reset two factor authentication. Just a small question. Thanks, I love the product!",account,medium,positive
+877,"slow performance. Data sync between my phone and desktop has stopped working. We are losing money every minute. Terrible experience, I'm furious.",technical,high,negative
+878,"payment failed. I was charged twice for my subscription this month and need a refund. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+879,wrong amount billed. I was billed the wrong amount after upgrading my plan. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+880,reset 2FA. I would like to change the email address on my account. Whenever you get a chance. Really appreciate your help.,account,low,positive
+881,mobile app. We would love public API access to automate our workflows. No rush on this. Really appreciate your help.,feature_request,low,positive
+882,"integration idea. We would love public API access to automate our workflows. Whenever you get a chance. Thanks, I love the product!",feature_request,medium,positive
+883,"change email. I would like to change the email address on my account. Just a small question. Great service so far, thank you.",account,low,positive
+884,api access. We would love public API access to automate our workflows. Need help immediately. I am extremely frustrated with your service.,feature_request,high,negative
+885,error 500. The system is extremely slow and pages take a minute to load.  Really appreciate your help.,technical,low,positive
+886,payment failed. Please cancel my renewal and refund the annual charge.,billing,high,neutral
+887,"mobile app. Is a native mobile app on your roadmap? Production is down for all our users. Terrible experience, I'm furious.",feature_request,high,negative
+888,"invoice missing. Please cancel my renewal and refund the annual charge.  Great service so far, thank you.",billing,low,positive
+889,"slow performance. Data sync between my phone and desktop has stopped working. This is urgent! Terrible experience, I'm furious.",technical,medium,negative
+890,"payment failed. My invoice for last month never arrived, can you resend it?  Great service so far, thank you.",billing,low,positive
+891,reset 2FA. I need to update my company name and billing profile details. Please advise.,account,medium,neutral
+892,"delete account. I lost my phone and need to reset two factor authentication. No rush on this. Thanks, I love the product!",account,low,positive
+893,payment failed. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+894,"add team member. How do I add a new team member to our workspace?  Thanks, I love the product!",account,low,positive
+895,change email. I lost my phone and need to reset two factor authentication. Let me know.,account,low,neutral
+896,double charged. The payment on my credit card failed but the money left my account.,billing,high,neutral
+897,"invoice missing. I was charged twice for my subscription this month and need a refund. No rush on this. Thanks, I love the product!",billing,low,positive
+898,reset 2FA. I need to update my company name and billing profile details. Please advise.,account,high,neutral
+899,update profile. I lost my phone and need to reset two factor authentication. Let me know.,account,high,neutral
+900,cannot log in. The system is extremely slow and pages take a minute to load. Let me know.,technical,medium,neutral
+901,export to excel. We would love public API access to automate our workflows. Let me know.,feature_request,high,neutral
+902,"sync not working. Data sync between my phone and desktop has stopped working. This is urgent! Terrible experience, I'm furious.",technical,high,negative
+903,slow performance. Data sync between my phone and desktop has stopped working. Need help immediately. I am extremely frustrated with your service.,technical,high,negative
+904,sync not working. I get an error 500 whenever I try to export a report.  Really appreciate your help.,technical,low,positive
+905,"cannot log in. The system is extremely slow and pages take a minute to load. This is urgent! Terrible experience, I'm furious.",technical,high,negative
+906,"reset 2FA. I need to update my company name and billing profile details. Just a small question. Thanks, I love the product!",account,medium,positive
+907,"reset 2FA. How do I add a new team member to our workspace? Need help immediately. Terrible experience, I'm furious.",account,high,negative
+908,"dark mode. Please consider integrating with Slack for notifications. No rush on this. Thanks, I love the product!",feature_request,low,positive
+909,update profile. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+910,"api access. We would love public API access to automate our workflows. Just a small question. Great service so far, thank you.",feature_request,low,positive
+911,"error 500. The application crashes every time I open the dashboard. We are losing money every minute. Terrible experience, I'm furious.",technical,high,negative
+912,integration idea. It would be great if you added a dark mode option. No rush on this. Really appreciate your help.,feature_request,medium,positive
+913,add team member. How do I add a new team member to our workspace? Whenever you get a chance. Really appreciate your help.,account,low,positive
+914,app crashes. The application crashes every time I open the dashboard. Let me know.,technical,low,neutral
+915,sync not working. I get an error 500 whenever I try to export a report.,technical,medium,neutral
+916,slow performance. The application crashes every time I open the dashboard. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+917,update profile. I need to update my company name and billing profile details. Please advise.,account,medium,neutral
+918,"export to excel. Please consider integrating with Slack for notifications. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+919,update profile. I need to update my company name and billing profile details. We are losing money every minute. This is unacceptable.,account,high,negative
+920,"mobile app. Is a native mobile app on your roadmap? Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+921,update profile. I need to update my company name and billing profile details. Need help immediately. This is unacceptable.,account,high,negative
+922,change email. I lost my phone and need to reset two factor authentication.,account,medium,neutral
+923,add team member. How do I add a new team member to our workspace? Let me know.,account,low,neutral
+924,update profile. Please delete my account and all associated personal data. Let me know.,account,high,neutral
+925,"app crashes. The application crashes every time I open the dashboard. Whenever you get a chance. Great service so far, thank you.",technical,low,positive
+926,double charged. The payment on my credit card failed but the money left my account. No rush on this. Really appreciate your help.,billing,low,positive
+927,"reset 2FA. Please delete my account and all associated personal data. This is urgent! Terrible experience, I'm furious.",account,high,negative
+928,"wrong amount billed. My invoice for last month never arrived, can you resend it? Please advise.",billing,medium,neutral
+929,dark mode. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+930,"add team member. I need to update my company name and billing profile details. This is urgent! Terrible experience, I'm furious.",account,high,negative
+931,update profile. I need to update my company name and billing profile details. This is urgent! I am extremely frustrated with your service.,account,high,negative
+932,delete account. I need to update my company name and billing profile details. Let me know.,account,low,neutral
+933,payment failed. I was charged twice for my subscription this month and need a refund. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+934,"app crashes. Data sync between my phone and desktop has stopped working.  Thanks, I love the product!",technical,low,positive
+935,add team member. I need to update my company name and billing profile details. This is urgent! This is unacceptable.,account,high,negative
+936,refund request. I was billed the wrong amount after upgrading my plan. Please advise.,billing,medium,neutral
+937,reset 2FA. I need to update my company name and billing profile details. We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+938,mobile app. Is a native mobile app on your roadmap? No rush on this. Really appreciate your help.,feature_request,low,positive
+939,"payment failed. I was charged twice for my subscription this month and need a refund. Just a small question. Great service so far, thank you.",billing,low,positive
+940,"invoice missing. My invoice for last month never arrived, can you resend it? Just a small question. Thanks, I love the product!",billing,low,positive
+941,sync not working. The application crashes every time I open the dashboard.  Really appreciate your help.,technical,low,positive
+942,change email. Please delete my account and all associated personal data.  Really appreciate your help.,account,low,positive
+943,payment failed. I was billed the wrong amount after upgrading my plan.,billing,medium,neutral
+944,payment failed. Please cancel my renewal and refund the annual charge.,billing,low,neutral
+945,api access. It would be great if you added a dark mode option. Please advise.,feature_request,medium,neutral
+946,change email. Please delete my account and all associated personal data. Please advise.,account,high,neutral
+947,integration idea. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+948,payment failed. Please cancel my renewal and refund the annual charge. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+949,refund request. The payment on my credit card failed but the money left my account. Production is down for all our users. This is unacceptable.,billing,high,negative
+950,refund request. I was charged twice for my subscription this month and need a refund. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+951,"mobile app. We would love public API access to automate our workflows. Whenever you get a chance. Thanks, I love the product!",feature_request,low,positive
+952,"export to excel. It would be great if you added a dark mode option. Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+953,"sync not working. I cannot log in, it keeps saying my password is invalid. No rush on this. Great service so far, thank you.",technical,low,positive
+954,"change email. Please delete my account and all associated personal data.  Thanks, I love the product!",account,medium,positive
+955,double charged. I was charged twice for my subscription this month and need a refund.,billing,high,neutral
+956,integration idea. We would love public API access to automate our workflows. This is urgent! This is unacceptable.,feature_request,medium,negative
+957,export to excel. Can you add an option to export data directly to Excel? Let me know.,feature_request,medium,neutral
+958,"reset 2FA. I would like to change the email address on my account.  Thanks, I love the product!",account,medium,positive
+959,error 500. I get an error 500 whenever I try to export a report.,technical,medium,neutral
+960,integration idea. It would be great if you added a dark mode option. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+961,update profile. Please delete my account and all associated personal data.,account,medium,neutral
+962,update profile. I need to update my company name and billing profile details. This is urgent! This is unacceptable.,account,high,negative
+963,"error 500. I cannot log in, it keeps saying my password is invalid. This is urgent! This is unacceptable.",technical,high,negative
+964,dark mode. Please consider integrating with Slack for notifications. Need help immediately. This is unacceptable.,feature_request,high,negative
+965,"app crashes. I cannot log in, it keeps saying my password is invalid. This is urgent! I am extremely frustrated with your service.",technical,high,negative
+966,"api access. Can you add an option to export data directly to Excel? Just a small question. Great service so far, thank you.",feature_request,low,positive
+967,"double charged. I was billed the wrong amount after upgrading my plan. No rush on this. Thanks, I love the product!",billing,low,positive
+968,"cannot log in. I cannot log in, it keeps saying my password is invalid. Need help immediately. This is unacceptable.",technical,high,negative
+969,export to excel. We would love public API access to automate our workflows. We are losing money every minute. This is unacceptable.,feature_request,high,negative
+970,change email. How do I add a new team member to our workspace? Production is down for all our users. This is unacceptable.,account,high,negative
+971,"error 500. I cannot log in, it keeps saying my password is invalid. Need help immediately. I am extremely frustrated with your service.",technical,high,negative
+972,reset 2FA. I lost my phone and need to reset two factor authentication.,account,medium,neutral
+973,sync not working. I get an error 500 whenever I try to export a report. Need help immediately. This is unacceptable.,technical,high,negative
+974,double charged. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+975,mobile app. It would be great if you added a dark mode option. Whenever you get a chance. Really appreciate your help.,feature_request,medium,positive
+976,payment failed. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+977,"dark mode. Please consider integrating with Slack for notifications. No rush on this. Great service so far, thank you.",feature_request,low,positive
+978,double charged. The payment on my credit card failed but the money left my account. Let me know.,billing,medium,neutral
+979,add team member. Please delete my account and all associated personal data. This is urgent! This is unacceptable.,account,high,negative
+980,mobile app. Is a native mobile app on your roadmap?,feature_request,medium,neutral
+981,error 500. Data sync between my phone and desktop has stopped working. Let me know.,technical,medium,neutral
+982,invoice missing. Please cancel my renewal and refund the annual charge. Please advise.,billing,high,neutral
+983,"wrong amount billed. Please cancel my renewal and refund the annual charge. We are losing money every minute. Terrible experience, I'm furious.",billing,medium,negative
+984,app crashes. The system is extremely slow and pages take a minute to load. Please advise.,technical,low,neutral
+985,add team member. I need to update my company name and billing profile details. Please advise.,account,high,neutral
+986,refund request. Please cancel my renewal and refund the annual charge. Whenever you get a chance. Really appreciate your help.,billing,low,positive
+987,sync not working. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,high,negative
+988,error 500. I get an error 500 whenever I try to export a report. Please advise.,technical,low,neutral
+989,mobile app. Please consider integrating with Slack for notifications. This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+990,"refund request. My invoice for last month never arrived, can you resend it? Just a small question. Great service so far, thank you.",billing,low,positive
+991,dark mode. It would be great if you added a dark mode option. Need help immediately. This is unacceptable.,feature_request,high,negative
+992,cannot log in. The system is extremely slow and pages take a minute to load. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+993,payment failed. I was charged twice for my subscription this month and need a refund. Production is down for all our users. I am extremely frustrated with your service.,billing,high,negative
+994,reset 2FA. How do I add a new team member to our workspace? This is urgent! This is unacceptable.,account,high,negative
+995,"integration idea. Please consider integrating with Slack for notifications. Just a small question. Great service so far, thank you.",feature_request,low,positive
+996,"api access. Can you add an option to export data directly to Excel? Whenever you get a chance. Great service so far, thank you.",feature_request,low,positive
+997,"api access. Is a native mobile app on your roadmap? Just a small question. Thanks, I love the product!",feature_request,low,positive
+998,"cannot log in. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,low,neutral
+999,"slow performance. I cannot log in, it keeps saying my password is invalid. This is urgent! This is unacceptable.",technical,medium,negative
+1000,dark mode. We would love public API access to automate our workflows. Production is down for all our users. This is unacceptable.,feature_request,high,negative
+1001,"reset 2FA. How do I add a new team member to our workspace? Need help immediately. Terrible experience, I'm furious.",account,medium,negative
+1002,double charged. I was billed the wrong amount after upgrading my plan. Let me know.,billing,high,neutral
+1003,"update profile. How do I add a new team member to our workspace? We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+1004,error 500. The application crashes every time I open the dashboard.,technical,high,neutral
+1005,api access. It would be great if you added a dark mode option. Please advise.,feature_request,medium,neutral
+1006,api access. It would be great if you added a dark mode option. Please advise.,feature_request,high,neutral
+1007,"add team member. Please delete my account and all associated personal data. Production is down for all our users. Terrible experience, I'm furious.",account,high,negative
+1008,"refund request. Please cancel my renewal and refund the annual charge. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+1009,"dark mode. We would love public API access to automate our workflows. We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+1010,dark mode. We would love public API access to automate our workflows. Need help immediately. I am extremely frustrated with your service.,feature_request,high,negative
+1011,update profile. I need to update my company name and billing profile details.  Really appreciate your help.,account,low,positive
+1012,"export to excel. Please consider integrating with Slack for notifications. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+1013,wrong amount billed. The payment on my credit card failed but the money left my account. We are losing money every minute. I am extremely frustrated with your service.,billing,medium,negative
+1014,refund request. I was charged twice for my subscription this month and need a refund.,billing,high,neutral
+1015,export to excel. Please consider integrating with Slack for notifications. Let me know.,feature_request,high,neutral
+1016,export to excel. Is a native mobile app on your roadmap? Please advise.,feature_request,medium,neutral
+1017,"add team member. I need to update my company name and billing profile details. No rush on this. Great service so far, thank you.",account,low,positive
+1018,mobile app. It would be great if you added a dark mode option. This is urgent! This is unacceptable.,feature_request,high,negative
+1019,change email. I would like to change the email address on my account.  Really appreciate your help.,account,low,positive
+1020,reset 2FA. I need to update my company name and billing profile details. No rush on this. Really appreciate your help.,account,low,positive
+1021,dark mode. We would love public API access to automate our workflows.,feature_request,high,neutral
+1022,double charged. The payment on my credit card failed but the money left my account. Please advise.,billing,medium,neutral
+1023,export to excel. It would be great if you added a dark mode option. Please advise.,feature_request,low,neutral
+1024,"reset 2FA. I would like to change the email address on my account. Just a small question. Thanks, I love the product!",account,low,positive
+1025,"slow performance. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,medium,neutral
+1026,add team member. How do I add a new team member to our workspace?,account,low,neutral
+1027,"wrong amount billed. The payment on my credit card failed but the money left my account. Just a small question. Thanks, I love the product!",billing,low,positive
+1028,delete account. I would like to change the email address on my account. Let me know.,account,low,neutral
+1029,slow performance. The system is extremely slow and pages take a minute to load. Production is down for all our users. This is unacceptable.,technical,high,negative
+1030,"refund request. I was billed the wrong amount after upgrading my plan. No rush on this. Thanks, I love the product!",billing,low,positive
+1031,"reset 2FA. I lost my phone and need to reset two factor authentication. Just a small question. Thanks, I love the product!",account,low,positive
+1032,change email. Please delete my account and all associated personal data. We are losing money every minute. This is unacceptable.,account,high,negative
+1033,"error 500. I cannot log in, it keeps saying my password is invalid. Please advise.",technical,medium,neutral
+1034,app crashes. The application crashes every time I open the dashboard. This is urgent! I am extremely frustrated with your service.,technical,high,negative
+1035,double charged. I was charged twice for my subscription this month and need a refund. Let me know.,billing,medium,neutral
+1036,payment failed. I was charged twice for my subscription this month and need a refund.,billing,medium,neutral
+1037,"change email. I would like to change the email address on my account. We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+1038,"app crashes. The application crashes every time I open the dashboard. Whenever you get a chance. Thanks, I love the product!",technical,low,positive
+1039,"error 500. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,low,neutral
+1040,"app crashes. The system is extremely slow and pages take a minute to load. No rush on this. Thanks, I love the product!",technical,low,positive
+1041,slow performance. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+1042,invoice missing. Please cancel my renewal and refund the annual charge.,billing,high,neutral
+1043,"sync not working. Data sync between my phone and desktop has stopped working. No rush on this. Thanks, I love the product!",technical,low,positive
+1044,"error 500. The application crashes every time I open the dashboard.  Thanks, I love the product!",technical,low,positive
+1045,api access. Please consider integrating with Slack for notifications. Production is down for all our users. I am extremely frustrated with your service.,feature_request,high,negative
+1046,payment failed. Please cancel my renewal and refund the annual charge. Need help immediately. This is unacceptable.,billing,high,negative
+1047,reset 2FA. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+1048,change email. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+1049,"update profile. I lost my phone and need to reset two factor authentication. Need help immediately. Terrible experience, I'm furious.",account,high,negative
+1050,"refund request. My invoice for last month never arrived, can you resend it? Need help immediately. I am extremely frustrated with your service.",billing,high,negative
+1051,"payment failed. I was charged twice for my subscription this month and need a refund. Whenever you get a chance. Great service so far, thank you.",billing,low,positive
+1052,error 500. The system is extremely slow and pages take a minute to load.,technical,high,neutral
+1053,add team member. I need to update my company name and billing profile details.,account,high,neutral
+1054,export to excel. Is a native mobile app on your roadmap?,feature_request,low,neutral
+1055,double charged. I was charged twice for my subscription this month and need a refund. Need help immediately. I am extremely frustrated with your service.,billing,high,negative
+1056,"refund request. My invoice for last month never arrived, can you resend it? Please advise.",billing,high,neutral
+1057,api access. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+1058,"payment failed. My invoice for last month never arrived, can you resend it?",billing,high,neutral
+1059,reset 2FA. How do I add a new team member to our workspace? Let me know.,account,low,neutral
+1060,refund request. I was billed the wrong amount after upgrading my plan. Please advise.,billing,high,neutral
+1061,"dark mode. Can you add an option to export data directly to Excel?  Great service so far, thank you.",feature_request,low,positive
+1062,update profile. Please delete my account and all associated personal data. Please advise.,account,high,neutral
+1063,reset 2FA. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+1064,api access. Is a native mobile app on your roadmap? Whenever you get a chance. Really appreciate your help.,feature_request,low,positive
+1065,api access. It would be great if you added a dark mode option. Let me know.,feature_request,low,neutral
+1066,"wrong amount billed. I was charged twice for my subscription this month and need a refund. Whenever you get a chance. Great service so far, thank you.",billing,low,positive
+1067,"update profile. How do I add a new team member to our workspace?  Great service so far, thank you.",account,medium,positive
+1068,invoice missing. Please cancel my renewal and refund the annual charge. Please advise.,billing,medium,neutral
+1069,refund request. The payment on my credit card failed but the money left my account. Please advise.,billing,low,neutral
+1070,sync not working. The system is extremely slow and pages take a minute to load. We are losing money every minute. This is unacceptable.,technical,high,negative
+1071,"api access. Is a native mobile app on your roadmap? Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+1072,"export to excel. We would love public API access to automate our workflows. No rush on this. Great service so far, thank you.",feature_request,low,positive
+1073,"api access. Is a native mobile app on your roadmap? Just a small question. Thanks, I love the product!",feature_request,low,positive
+1074,error 500. The application crashes every time I open the dashboard. No rush on this. Really appreciate your help.,technical,low,positive
+1075,reset 2FA. I would like to change the email address on my account. Let me know.,account,medium,neutral
+1076,"wrong amount billed. I was billed the wrong amount after upgrading my plan. Just a small question. Thanks, I love the product!",billing,low,positive
+1077,"integration idea. We would love public API access to automate our workflows. This is urgent! Terrible experience, I'm furious.",feature_request,high,negative
+1078,mobile app. Is a native mobile app on your roadmap? Let me know.,feature_request,medium,neutral
+1079,change email. I lost my phone and need to reset two factor authentication. Let me know.,account,medium,neutral
+1080,sync not working. I get an error 500 whenever I try to export a report. Whenever you get a chance. Really appreciate your help.,technical,medium,positive
+1081,integration idea. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+1082,"add team member. I need to update my company name and billing profile details. Whenever you get a chance. Thanks, I love the product!",account,low,positive
+1083,mobile app. We would love public API access to automate our workflows. No rush on this. Really appreciate your help.,feature_request,low,positive
+1084,update profile. Please delete my account and all associated personal data. Let me know.,account,medium,neutral
+1085,invoice missing. I was billed the wrong amount after upgrading my plan. This is urgent! This is unacceptable.,billing,high,negative
+1086,"dark mode. Can you add an option to export data directly to Excel?  Great service so far, thank you.",feature_request,low,positive
+1087,error 500. The system is extremely slow and pages take a minute to load. This is urgent! I am extremely frustrated with your service.,technical,high,negative
+1088,app crashes. The application crashes every time I open the dashboard. Please advise.,technical,high,neutral
+1089,"payment failed. The payment on my credit card failed but the money left my account. Just a small question. Thanks, I love the product!",billing,medium,positive
+1090,"wrong amount billed. I was charged twice for my subscription this month and need a refund. Whenever you get a chance. Thanks, I love the product!",billing,low,positive
+1091,"add team member. How do I add a new team member to our workspace? No rush on this. Thanks, I love the product!",account,low,positive
+1092,mobile app. Can you add an option to export data directly to Excel?,feature_request,medium,neutral
+1093,error 500. The system is extremely slow and pages take a minute to load. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+1094,invoice missing. Please cancel my renewal and refund the annual charge. Just a small question. Really appreciate your help.,billing,medium,positive
+1095,"export to excel. We would love public API access to automate our workflows. Whenever you get a chance. Great service so far, thank you.",feature_request,medium,positive
+1096,integration idea. It would be great if you added a dark mode option. Let me know.,feature_request,medium,neutral
+1097,invoice missing. Please cancel my renewal and refund the annual charge.,billing,medium,neutral
+1098,export to excel. Is a native mobile app on your roadmap? Just a small question. Really appreciate your help.,feature_request,low,positive
+1099,export to excel. We would love public API access to automate our workflows. Need help immediately. I am extremely frustrated with your service.,feature_request,high,negative
+1100,error 500. Data sync between my phone and desktop has stopped working. Please advise.,technical,high,neutral
+1101,payment failed. The payment on my credit card failed but the money left my account. This is urgent! I am extremely frustrated with your service.,billing,high,negative
+1102,api access. Please consider integrating with Slack for notifications. Please advise.,feature_request,medium,neutral
+1103,"refund request. My invoice for last month never arrived, can you resend it? Just a small question. Great service so far, thank you.",billing,low,positive
+1104,mobile app. Can you add an option to export data directly to Excel? Please advise.,feature_request,medium,neutral
+1105,"reset 2FA. Please delete my account and all associated personal data. No rush on this. Thanks, I love the product!",account,low,positive
+1106,mobile app. Can you add an option to export data directly to Excel? Let me know.,feature_request,high,neutral
+1107,update profile. How do I add a new team member to our workspace? We are losing money every minute. I am extremely frustrated with your service.,account,high,negative
+1108,app crashes. The system is extremely slow and pages take a minute to load.  Really appreciate your help.,technical,low,positive
+1109,"error 500. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,medium,neutral
+1110,refund request. The payment on my credit card failed but the money left my account.  Really appreciate your help.,billing,low,positive
+1111,slow performance. Data sync between my phone and desktop has stopped working. Please advise.,technical,medium,neutral
+1112,export to excel. Can you add an option to export data directly to Excel? Let me know.,feature_request,medium,neutral
+1113,sync not working. Data sync between my phone and desktop has stopped working. Let me know.,technical,low,neutral
+1114,"error 500. I cannot log in, it keeps saying my password is invalid. Whenever you get a chance. Really appreciate your help.",technical,low,positive
+1115,api access. Can you add an option to export data directly to Excel? Production is down for all our users. This is unacceptable.,feature_request,high,negative
+1116,dark mode. It would be great if you added a dark mode option. Let me know.,feature_request,high,neutral
+1117,"export to excel. Is a native mobile app on your roadmap? We are losing money every minute. Terrible experience, I'm furious.",feature_request,high,negative
+1118,dark mode. Please consider integrating with Slack for notifications. Let me know.,feature_request,medium,neutral
+1119,wrong amount billed. Please cancel my renewal and refund the annual charge. Production is down for all our users. I am extremely frustrated with your service.,billing,medium,negative
+1120,"invoice missing. My invoice for last month never arrived, can you resend it? Need help immediately. I am extremely frustrated with your service.",billing,medium,negative
+1121,"invoice missing. I was billed the wrong amount after upgrading my plan. Just a small question. Thanks, I love the product!",billing,low,positive
+1122,error 500. The application crashes every time I open the dashboard. Need help immediately. This is unacceptable.,technical,high,negative
+1123,sync not working. I get an error 500 whenever I try to export a report. Just a small question. Really appreciate your help.,technical,low,positive
+1124,update profile. Please delete my account and all associated personal data. Let me know.,account,low,neutral
+1125,reset 2FA. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+1126,payment failed. The payment on my credit card failed but the money left my account. This is urgent! This is unacceptable.,billing,high,negative
+1127,sync not working. The application crashes every time I open the dashboard. Let me know.,technical,medium,neutral
+1128,"export to excel. It would be great if you added a dark mode option.  Great service so far, thank you.",feature_request,low,positive
+1129,reset 2FA. How do I add a new team member to our workspace? We are losing money every minute. This is unacceptable.,account,high,negative
+1130,cannot log in. Data sync between my phone and desktop has stopped working. No rush on this. Really appreciate your help.,technical,low,positive
+1131,"invoice missing. I was charged twice for my subscription this month and need a refund. Need help immediately. Terrible experience, I'm furious.",billing,high,negative
+1132,update profile. How do I add a new team member to our workspace?,account,medium,neutral
+1133,refund request. I was billed the wrong amount after upgrading my plan. Please advise.,billing,medium,neutral
+1134,api access. It would be great if you added a dark mode option. Just a small question. Really appreciate your help.,feature_request,low,positive
+1135,"api access. We would love public API access to automate our workflows. Whenever you get a chance. Thanks, I love the product!",feature_request,medium,positive
+1136,refund request. I was billed the wrong amount after upgrading my plan.,billing,high,neutral
+1137,delete account. Please delete my account and all associated personal data. Need help immediately. This is unacceptable.,account,high,negative
+1138,dark mode. We would love public API access to automate our workflows. Let me know.,feature_request,medium,neutral
+1139,integration idea. Can you add an option to export data directly to Excel?,feature_request,low,neutral
+1140,update profile. I need to update my company name and billing profile details. Let me know.,account,medium,neutral
+1141,"api access. Please consider integrating with Slack for notifications.  Thanks, I love the product!",feature_request,low,positive
+1142,"error 500. Data sync between my phone and desktop has stopped working.  Thanks, I love the product!",technical,low,positive
+1143,sync not working. The system is extremely slow and pages take a minute to load.,technical,medium,neutral
+1144,payment failed. The payment on my credit card failed but the money left my account. Need help immediately. This is unacceptable.,billing,medium,negative
+1145,cannot log in. The system is extremely slow and pages take a minute to load.,technical,low,neutral
+1146,"dark mode. Please consider integrating with Slack for notifications. This is urgent! Terrible experience, I'm furious.",feature_request,high,negative
+1147,"wrong amount billed. The payment on my credit card failed but the money left my account.  Thanks, I love the product!",billing,low,positive
+1148,"update profile. Please delete my account and all associated personal data. This is urgent! Terrible experience, I'm furious.",account,high,negative
+1149,sync not working. I get an error 500 whenever I try to export a report. Please advise.,technical,medium,neutral
+1150,add team member. How do I add a new team member to our workspace?  Really appreciate your help.,account,low,positive
+1151,"error 500. The application crashes every time I open the dashboard. This is urgent! Terrible experience, I'm furious.",technical,medium,negative
+1152,"export to excel. Is a native mobile app on your roadmap? No rush on this. Great service so far, thank you.",feature_request,low,positive
+1153,api access. Please consider integrating with Slack for notifications.,feature_request,high,neutral
+1154,add team member. I would like to change the email address on my account.,account,high,neutral
+1155,cannot log in. The application crashes every time I open the dashboard. Production is down for all our users. This is unacceptable.,technical,high,negative
+1156,"slow performance. I cannot log in, it keeps saying my password is invalid. Whenever you get a chance. Really appreciate your help.",technical,low,positive
+1157,"refund request. I was charged twice for my subscription this month and need a refund.  Thanks, I love the product!",billing,low,positive
+1158,sync not working. Data sync between my phone and desktop has stopped working.,technical,high,neutral
+1159,double charged. The payment on my credit card failed but the money left my account.,billing,medium,neutral
+1160,mobile app. Is a native mobile app on your roadmap? This is urgent! This is unacceptable.,feature_request,high,negative
+1161,dark mode. Is a native mobile app on your roadmap?,feature_request,low,neutral
+1162,"integration idea. It would be great if you added a dark mode option.  Thanks, I love the product!",feature_request,low,positive
+1163,"mobile app. Is a native mobile app on your roadmap? No rush on this. Great service so far, thank you.",feature_request,medium,positive
+1164,"refund request. My invoice for last month never arrived, can you resend it? Just a small question. Great service so far, thank you.",billing,low,positive
+1165,update profile. Please delete my account and all associated personal data. Let me know.,account,low,neutral
+1166,"sync not working. I cannot log in, it keeps saying my password is invalid. Just a small question. Really appreciate your help.",technical,medium,positive
+1167,add team member. I need to update my company name and billing profile details. Let me know.,account,high,neutral
+1168,"sync not working. I cannot log in, it keeps saying my password is invalid. Let me know.",technical,medium,neutral
+1169,sync not working. I get an error 500 whenever I try to export a report. Need help immediately. This is unacceptable.,technical,high,negative
+1170,error 500. I get an error 500 whenever I try to export a report. This is urgent! This is unacceptable.,technical,high,negative
+1171,app crashes. The system is extremely slow and pages take a minute to load. This is urgent! This is unacceptable.,technical,high,negative
+1172,error 500. I get an error 500 whenever I try to export a report. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+1173,double charged. Please cancel my renewal and refund the annual charge.,billing,low,neutral
+1174,refund request. I was charged twice for my subscription this month and need a refund. Let me know.,billing,high,neutral
+1175,double charged. I was charged twice for my subscription this month and need a refund. Please advise.,billing,medium,neutral
+1176,sync not working. The system is extremely slow and pages take a minute to load. Please advise.,technical,low,neutral
+1177,api access. We would love public API access to automate our workflows. Please advise.,feature_request,medium,neutral
+1178,"app crashes. I cannot log in, it keeps saying my password is invalid. Production is down for all our users. I am extremely frustrated with your service.",technical,medium,negative
+1179,"mobile app. We would love public API access to automate our workflows. Whenever you get a chance. Thanks, I love the product!",feature_request,low,positive
+1180,sync not working. Data sync between my phone and desktop has stopped working. Need help immediately. This is unacceptable.,technical,high,negative
+1181,dark mode. Is a native mobile app on your roadmap?,feature_request,low,neutral
+1182,app crashes. I get an error 500 whenever I try to export a report.,technical,medium,neutral
+1183,"change email. Please delete my account and all associated personal data. Whenever you get a chance. Great service so far, thank you.",account,low,positive
+1184,payment failed. I was billed the wrong amount after upgrading my plan.,billing,low,neutral
+1185,change email. How do I add a new team member to our workspace? Let me know.,account,low,neutral
+1186,slow performance. The system is extremely slow and pages take a minute to load. Let me know.,technical,medium,neutral
+1187,export to excel. We would love public API access to automate our workflows.,feature_request,high,neutral
+1188,double charged. Please cancel my renewal and refund the annual charge. We are losing money every minute. I am extremely frustrated with your service.,billing,high,negative
+1189,"delete account. I would like to change the email address on my account. We are losing money every minute. Terrible experience, I'm furious.",account,high,negative
+1190,double charged. The payment on my credit card failed but the money left my account.,billing,low,neutral
+1191,api access. We would love public API access to automate our workflows. Please advise.,feature_request,medium,neutral
+1192,change email. I need to update my company name and billing profile details. This is urgent! I am extremely frustrated with your service.,account,high,negative
+1193,add team member. How do I add a new team member to our workspace?,account,medium,neutral
+1194,update profile. I lost my phone and need to reset two factor authentication.,account,medium,neutral
+1195,cannot log in. Data sync between my phone and desktop has stopped working. Production is down for all our users. I am extremely frustrated with your service.,technical,high,negative
+1196,mobile app. Can you add an option to export data directly to Excel? This is urgent! I am extremely frustrated with your service.,feature_request,high,negative
+1197,"mobile app. We would love public API access to automate our workflows. Need help immediately. Terrible experience, I'm furious.",feature_request,high,negative
+1198,mobile app. Can you add an option to export data directly to Excel? Let me know.,feature_request,high,neutral
+1199,slow performance. The system is extremely slow and pages take a minute to load.  Really appreciate your help.,technical,low,positive
+1200,"refund request. My invoice for last month never arrived, can you resend it? Let me know.",billing,high,neutral
