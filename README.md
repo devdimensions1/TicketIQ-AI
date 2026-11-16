@@ -35,7 +35,8 @@ pip install -r requirements.txt
 python -m ticketiq.models      # generate data + train models (prints accuracy)
 python demo.py                 # CLI demo
 uvicorn ticketiq.api:app --reload   # API docs at http://127.0.0.1:8000/docs
-streamlit run app.py           # web UI at http://localhost:8501
+streamlit run app.py           # customer portal at http://localhost:8501
+                               # agent console at http://localhost:8501/?view=agent
 pytest                         # run tests
 ```
 
