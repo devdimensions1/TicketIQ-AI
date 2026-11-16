@@ -139,6 +139,7 @@ MODE_CSS = """
 .stApp :is(h1,h2,h3,h4,h5,h6,p,label,li,span,small,summary,th,td,div[data-testid="stMarkdownContainer"]) { color: var(--tx); }
 .stApp [data-testid="stCaptionContainer"], .stApp [data-testid="stCaptionContainer"] * { color: var(--mut) !important; }
 .stApp .hero, .stApp .hero * { color: #fff !important; }
+.stApp .brand .logo, .stApp .brand .logo * { color: #fff !important; }
 .stApp .bubble .who, .stApp .card .label, .stApp .card .sub { color: var(--mut) !important; }
 .stApp button[kind="primary"] *, .stApp button[kind="primaryFormSubmit"] * { color: #fff !important; }
 .stApp button[kind="secondary"], .stApp button[kind="secondaryFormSubmit"] {
