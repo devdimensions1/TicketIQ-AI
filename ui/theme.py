@@ -82,6 +82,9 @@ pre.code { border: 1px solid var(--bd); background: var(--card); border-radius: 
 .stButton > button[kind="primary"], .stFormSubmitButton > button[kind="primaryFormSubmit"] {
   background: linear-gradient(135deg,#4f46e5,#7c3aed); border: 0; font-weight: 600; }
 .small { font-size: .8rem; opacity: .6; }
+.st-key-theme_btn { display: flex; justify-content: flex-end; }
+.st-key-theme_btn button { border-radius: 999px !important; width: 2.6rem; height: 2.6rem; min-height: 0;
+  padding: 0 !important; font-size: 1.15rem; }
 </style>
 """
 

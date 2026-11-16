@@ -291,8 +291,11 @@ def initial_dark() -> bool:
 def main() -> None:
     if "dark" not in st.session_state:
         st.session_state["dark"] = initial_dark()
-    _, toggle_col = st.columns([8, 2])
-    toggle_col.toggle("🌙 Dark mode", key="dark")
+    _, toggle_col = st.columns([20, 1])
+    dark_now = st.session_state["dark"]
+    toggle_col.button("☀️" if dark_now else "🌙", key="theme_btn",
+                      help="Switch to light mode" if dark_now else "Switch to dark mode",
+                      on_click=lambda: st.session_state.update(dark=not st.session_state["dark"]))
     theme.inject(st.session_state["dark"])
     engine, store = get_engine(), get_store()
     # Internal console lives at /?view=agent. This hides it from customers
